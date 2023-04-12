@@ -1,0 +1,2741 @@
+** Drc report for C:\KiCad\Chunky2040_2023\Chunky2040_2023.kicad_pcb **
+** Created on 2023-03-03 20:35:21 **
+
+** Found 676 DRC violations **
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0635 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(363.7368 mm, 87.6595 mm): Track [GND2] on F.Cu, length 0.0323 mm
+    @(363.5085 mm, 87.8877 mm): Line on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0635 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(363.7181 mm, 89.6195 mm): Track [GND2] on F.Cu, length 0.0194 mm
+    @(363.4990 mm, 89.4277 mm): Line on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.1100 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(362.9605 mm, 84.2143 mm): Track [GND2] on F.Cu, length 1.1634 mm
+    @(363.1605 mm, 84.0143 mm): Track [/Left2040/ALERT] on F.Cu, length 1.0515 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.1100 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(362.9605 mm, 84.2143 mm): Track [GND2] on F.Cu, length 1.1634 mm
+    @(361.3942 mm, 83.2995 mm): Track [/Left2040/ALERT] on F.Cu, length 1.0110 mm
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2350 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(364.1605 mm, 84.6143 mm): Track [/Left2040/CC_2] on F.Cu, length 2.2766 mm
+    @(366.2071 mm, 85.0143 mm): Via [/Left2040/SCL] on F.Cu - B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.1295 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(172.2883 mm, 103.0609 mm): Via [/Right2040/COMMS-] on F.Cu - B.Cu
+    @(171.7124 mm, 103.5087 mm): Via [/Right2040/COMMS+] on F.Cu - B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.1295 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(172.2883 mm, 103.0609 mm): Via [/Right2040/COMMS-] on F.Cu - B.Cu
+    @(171.7124 mm, 103.5087 mm): Via [/Right2040/COMMS+] on F.Cu - B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.1295 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(172.2883 mm, 103.0609 mm): Via [/Right2040/COMMS-] on F.Cu - B.Cu
+    @(171.7124 mm, 103.5087 mm): Via [/Right2040/COMMS+] on F.Cu - B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.1295 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(172.2883 mm, 103.0609 mm): Via [/Right2040/COMMS-] on F.Cu - B.Cu
+    @(171.7124 mm, 103.5087 mm): Via [/Right2040/COMMS+] on F.Cu - B.Cu
+[clearance]: Clearance violation (netclass 'Power' clearance 0.2000 mm; actual 0.1995 mm)
+    Rule: netclass 'Power'; Severity: error
+    @(320.8339 mm, 181.4432 mm): Via [/Left2040/k06] on F.Cu - B.Cu
+    @(320.7440 mm, 179.6812 mm): Pad 1 [+3V3_L] of SW25 on F.Cu
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0900 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(64.3142 mm, 77.1441 mm): Track [/Right2040/ADDR1] on F.Cu, length 0.2604 mm
+    @(65.7385 mm, 77.1042 mm): Line on F.Cu
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0635 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(56.0640 mm, 84.2243 mm): Track [/Right2040/ADDR1] on F.Cu, length 0.7866 mm
+    @(56.2605 mm, 84.8143 mm): Pad E1 [/Right2040/Power_PDO3] of IC3 on F.Cu
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0705 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(56.0640 mm, 84.2243 mm): Track [/Right2040/ADDR1] on F.Cu, length 0.7866 mm
+    @(55.8605 mm, 84.8143 mm): Pad E2 [/Right2040/ATTACH] of IC3 on F.Cu
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0900 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(58.7017 mm, 78.7501 mm): Track [/Right2040/ADDR1] on B.Cu, length 4.5500 mm
+    @(57.0055 mm, 80.0362 mm): Track [/Right2040/ADDR0] on B.Cu, length 2.3137 mm
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0900 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(57.2955 mm, 80.1563 mm): Track [/Right2040/ADDR1] on B.Cu, length 1.9886 mm
+    @(57.0055 mm, 80.0362 mm): Track [/Right2040/ADDR0] on B.Cu, length 2.3137 mm
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0900 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(57.2955 mm, 80.1563 mm): Track [/Right2040/ADDR1] on B.Cu, length 1.9886 mm
+    @(57.0055 mm, 82.2593 mm): Track [/Right2040/ADDR0] on B.Cu, length 2.2232 mm
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0900 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(57.2955 mm, 82.3943 mm): Track [/Right2040/ADDR1] on B.Cu, length 2.2381 mm
+    @(56.5147 mm, 82.7501 mm): Track [/Right2040/ADDR0] on B.Cu, length 0.6940 mm
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0900 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(57.2955 mm, 82.3943 mm): Track [/Right2040/ADDR1] on B.Cu, length 2.2381 mm
+    @(57.0055 mm, 80.0362 mm): Track [/Right2040/ADDR0] on B.Cu, length 2.3137 mm
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0900 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(57.2955 mm, 82.3943 mm): Track [/Right2040/ADDR1] on B.Cu, length 2.2381 mm
+    @(57.0055 mm, 82.2593 mm): Track [/Right2040/ADDR0] on B.Cu, length 2.2232 mm
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0670 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(55.6605 mm, 84.1339 mm): Track [/Right2040/ADDR0] on F.Cu, length 0.8804 mm
+    @(55.8605 mm, 84.8143 mm): Pad E2 [/Right2040/ATTACH] of IC3 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0670 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(55.6605 mm, 84.1339 mm): Track [/Right2040/ADDR0] on F.Cu, length 0.8804 mm
+    @(55.4605 mm, 84.8143 mm): Pad E3 [GND] of IC3 on F.Cu
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0900 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(64.3462 mm, 75.3542 mm): Track [/Right2040/ADDR0] on F.Cu, length 0.2321 mm
+    @(65.7505 mm, 75.2941 mm): Line on F.Cu
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0935 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(53.5855 mm, 84.7108 mm): Track [/Right2040/RESET] on F.Cu, length 0.4243 mm
+    @(53.2855 mm, 85.2143 mm): Track [/Right2040/SCL] on F.Cu, length 1.3750 mm
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0935 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(53.8855 mm, 85.0108 mm): Track [/Right2040/RESET] on F.Cu, length 0.9715 mm
+    @(53.2855 mm, 85.2143 mm): Track [/Right2040/SCL] on F.Cu, length 1.3750 mm
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0705 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(53.8855 mm, 85.0108 mm): Track [/Right2040/RESET] on F.Cu, length 0.9715 mm
+    @(54.6605 mm, 85.2143 mm): Pad D5 [/Right2040/SCL] of IC3 on F.Cu
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0635 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(53.8855 mm, 85.0108 mm): Track [/Right2040/RESET] on F.Cu, length 0.9715 mm
+    @(54.6605 mm, 84.8143 mm): Pad E5 [/Right2040/SDA] of IC3 on F.Cu
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0705 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(56.0570 mm, 86.2108 mm): Track [/Right2040/ALERT] on F.Cu, length 0.5446 mm
+    @(56.2605 mm, 86.4143 mm): Pad A1 [/Right2040/VBUS_VS_DISCH] of IC3 on F.Cu
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0635 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(56.0570 mm, 86.2108 mm): Track [/Right2040/ALERT] on F.Cu, length 0.5446 mm
+    @(55.8605 mm, 86.4143 mm): Pad A2 [/Right2040/Power_PDO2] of IC3 on F.Cu
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0866 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(366.4205 mm, 87.2743 mm): Track [/Left2040/SDA] on F.Cu, length 2.6304 mm
+    @(364.3639 mm, 85.2177 mm): Track [/Left2040/RESET] on F.Cu, length 1.1250 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.1224 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(240.1562 mm, 163.1013 mm): Track [/Left2040/SDA] on F.Cu, length 1.0577 mm
+    @(240.4060 mm, 162.8515 mm): Pad A3 [/Left2040/OUT+] of IC1 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.1226 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(240.1562 mm, 163.1013 mm): Track [/Left2040/SDA] on F.Cu, length 1.0577 mm
+    @(240.4060 mm, 163.3515 mm): Pad B3 [GND2] of IC1 on F.Cu
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0899 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(268.5005 mm, 80.0943 mm): Track [/Left2040/SDA] on B.Cu, length 3.5638 mm
+    @(268.5805 mm, 79.7643 mm): Track [/Left2040/SCL] on B.Cu, length 3.5638 mm
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0899 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(268.5005 mm, 80.0943 mm): Track [/Left2040/SDA] on B.Cu, length 3.5638 mm
+    @(293.5705 mm, 79.7643 mm): Track [/Left2040/SCL] on B.Cu, length 24.9900 mm
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0899 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(265.9805 mm, 77.5743 mm): Track [/Left2040/SDA] on B.Cu, length 11.2000 mm
+    @(268.5805 mm, 79.7643 mm): Track [/Left2040/SCL] on B.Cu, length 3.5638 mm
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0934 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(364.5605 mm, 85.0143 mm): Track [/Left2040/SCL] on F.Cu, length 1.5936 mm
+    @(364.3639 mm, 85.2177 mm): Track [/Left2040/RESET] on F.Cu, length 1.1250 mm
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0934 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(364.5605 mm, 85.0143 mm): Track [/Left2040/SCL] on F.Cu, length 1.5936 mm
+    @(365.4889 mm, 85.2177 mm): Track [/Left2040/RESET] on F.Cu, length 0.9498 mm
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0900 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(107.2698 mm, 86.1237 mm): Track [/Right2040/SDA] on F.Cu, length 9.5470 mm
+    @(109.7354 mm, 88.9993 mm): Track [/Right2040/SCL] on F.Cu, length 3.6567 mm
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0900 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(107.2698 mm, 86.1237 mm): Track [/Right2040/SDA] on F.Cu, length 9.5470 mm
+    @(107.1497 mm, 86.4137 mm): Track [/Right2040/SCL] on F.Cu, length 9.6649 mm
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0900 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(175.5093 mm, 103.4185 mm): Track [/Right2040/SDA] on F.Cu, length 1.4003 mm
+    @(174.7465 mm, 104.6987 mm): Track [/Right2040/SCL] on F.Cu, length 1.3000 mm
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0900 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(171.5129 mm, 108.9323 mm): Track [/Right2040/SDA] on F.Cu, length 1.3707 mm
+    @(171.0536 mm, 110.1916 mm): Track [/Right2040/SCL] on F.Cu, length 6.5000 mm
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0900 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(97.7228 mm, 86.1237 mm): Track [/Right2040/SDA] on F.Cu, length 1.8276 mm
+    @(107.1497 mm, 86.4137 mm): Track [/Right2040/SCL] on F.Cu, length 9.6649 mm
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0900 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(174.5191 mm, 104.4087 mm): Track [/Right2040/SDA] on F.Cu, length 1.2826 mm
+    @(173.4466 mm, 104.6987 mm): Track [/Right2040/SCL] on F.Cu, length 1.9699 mm
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0900 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(174.5191 mm, 104.4087 mm): Track [/Right2040/SDA] on F.Cu, length 1.2826 mm
+    @(174.7465 mm, 104.6987 mm): Track [/Right2040/SCL] on F.Cu, length 1.3000 mm
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0900 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(164.7636 mm, 109.9016 mm): Track [/Right2040/SDA] on F.Cu, length 1.7932 mm
+    @(171.0536 mm, 110.1916 mm): Track [/Right2040/SCL] on F.Cu, length 6.5000 mm
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0900 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(170.5436 mm, 109.9016 mm): Track [/Right2040/SDA] on F.Cu, length 5.7800 mm
+    @(171.0536 mm, 110.1916 mm): Track [/Right2040/SCL] on F.Cu, length 6.5000 mm
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0900 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(109.8555 mm, 88.7094 mm): Track [/Right2040/SDA] on F.Cu, length 3.6567 mm
+    @(140.9854 mm, 88.9993 mm): Track [/Right2040/SCL] on F.Cu, length 31.2501 mm
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0900 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(109.8555 mm, 88.7094 mm): Track [/Right2040/SDA] on F.Cu, length 3.6567 mm
+    @(109.7354 mm, 88.9993 mm): Track [/Right2040/SCL] on F.Cu, length 3.6567 mm
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0900 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(109.8555 mm, 88.7094 mm): Track [/Right2040/SDA] on F.Cu, length 3.6567 mm
+    @(107.1497 mm, 86.4137 mm): Track [/Right2040/SCL] on F.Cu, length 9.6649 mm
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0900 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(141.4842 mm, 88.7094 mm): Track [/Right2040/SDA] on F.Cu, length 31.6287 mm
+    @(147.8605 mm, 95.8744 mm): Track [/Right2040/SCL] on F.Cu, length 9.7228 mm
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0900 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(141.4842 mm, 88.7094 mm): Track [/Right2040/SDA] on F.Cu, length 31.6287 mm
+    @(140.9854 mm, 88.9993 mm): Track [/Right2040/SCL] on F.Cu, length 31.2501 mm
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0900 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(141.4842 mm, 88.7094 mm): Track [/Right2040/SDA] on F.Cu, length 31.6287 mm
+    @(109.7354 mm, 88.9993 mm): Track [/Right2040/SCL] on F.Cu, length 3.6567 mm
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0900 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(60.1991 mm, 75.4791 mm): Track [/Right2040/SDA] on B.Cu, length 6.0920 mm
+    @(52.3205 mm, 83.7679 mm): Track [/Right2040/SCL] on B.Cu, length 11.3119 mm
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0900 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(60.1991 mm, 75.4791 mm): Track [/Right2040/SDA] on B.Cu, length 6.0920 mm
+    @(65.9812 mm, 75.7691 mm): Track [/Right2040/SCL] on B.Cu, length 1.4075 mm
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0900 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(60.1991 mm, 75.4791 mm): Track [/Right2040/SDA] on B.Cu, length 6.0920 mm
+    @(60.3193 mm, 75.7691 mm): Track [/Right2040/SCL] on B.Cu, length 5.6619 mm
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0900 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(52.7642 mm, 81.8777 mm): Track [/Right2040/SDA] on B.Cu, length 1.0364 mm
+    @(52.3205 mm, 83.7679 mm): Track [/Right2040/SCL] on B.Cu, length 11.3119 mm
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0900 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(53.8005 mm, 81.8777 mm): Track [/Right2040/SDA] on B.Cu, length 9.0490 mm
+    @(52.3205 mm, 83.7679 mm): Track [/Right2040/SCL] on B.Cu, length 11.3119 mm
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0900 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(53.8005 mm, 81.8777 mm): Track [/Right2040/SDA] on B.Cu, length 9.0490 mm
+    @(60.3193 mm, 75.7691 mm): Track [/Right2040/SCL] on B.Cu, length 5.6619 mm
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0900 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(362.9605 mm, 83.8143 mm): Track [/Left2040/VBUS_VS_DISCH] on F.Cu, length 0.5334 mm
+    @(363.1605 mm, 84.0143 mm): Track [/Left2040/ALERT] on F.Cu, length 1.0515 mm
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0670 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(363.1605 mm, 84.0143 mm): Track [/Left2040/ALERT] on F.Cu, length 1.0515 mm
+    @(362.9605 mm, 83.8143 mm): Pad A1 [/Left2040/VBUS_VS_DISCH] of IC7 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0670 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(363.1605 mm, 84.0143 mm): Track [/Left2040/ALERT] on F.Cu, length 1.0515 mm
+    @(362.9605 mm, 84.2143 mm): Pad B1 [GND2] of IC7 on F.Cu
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0187 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(361.5805 mm, 87.1477 mm): Track [/Left2040/ADDR1] on F.Cu, length 0.9546 mm
+    @(363.5085 mm, 87.8877 mm): Line on F.Cu
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0705 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(363.1640 mm, 85.2108 mm): Track [/Left2040/ADDR1] on F.Cu, length 1.1835 mm
+    @(362.9605 mm, 85.4143 mm): Pad E1 [/Left2040/Power_PDO3] of IC7 on F.Cu
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0635 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(363.1640 mm, 85.2108 mm): Track [/Left2040/ADDR1] on F.Cu, length 1.1835 mm
+    @(362.9605 mm, 85.0143 mm): Pad D1 [/Left2040/GPIO] of IC7 on F.Cu
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0100 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(362.2555 mm, 87.8877 mm): Track [/Left2040/ADDR1] on F.Cu, length 0.8450 mm
+    @(363.5085 mm, 87.8877 mm): Line on F.Cu
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0100 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(362.2555 mm, 87.8227 mm): Track [/Left2040/ADDR1] on F.Cu, length 0.0650 mm
+    @(363.5085 mm, 87.8877 mm): Line on F.Cu
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0231 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(361.4005 mm, 89.3477 mm): Track [/Left2040/ADDR0] on F.Cu, length 0.8455 mm
+    @(363.4990 mm, 89.4277 mm): Line on F.Cu
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0100 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(362.2460 mm, 89.3477 mm): Track [/Left2040/ADDR0] on F.Cu, length 0.0800 mm
+    @(363.4990 mm, 89.4277 mm): Line on F.Cu
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0100 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(362.0155 mm, 89.8952 mm): Track [/Left2040/ADDR0] on F.Cu, length 0.4242 mm
+    @(363.4990 mm, 89.4277 mm): Line on F.Cu
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0670 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(363.5605 mm, 85.2141 mm): Track [/Left2040/ADDR0] on F.Cu, length 0.8617 mm
+    @(363.3605 mm, 85.4143 mm): Pad E2 [/Left2040/ATTACH] of IC7 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0670 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(363.5605 mm, 85.2141 mm): Track [/Left2040/ADDR0] on F.Cu, length 0.8617 mm
+    @(363.7605 mm, 85.4143 mm): Pad E3 [GND2] of IC7 on F.Cu
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0704 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(364.3639 mm, 85.2177 mm): Track [/Left2040/RESET] on F.Cu, length 1.1250 mm
+    @(364.5605 mm, 85.0143 mm): Pad D5 [/Left2040/SCL] of IC7 on F.Cu
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0636 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(364.3639 mm, 85.2177 mm): Track [/Left2040/RESET] on F.Cu, length 1.1250 mm
+    @(364.5605 mm, 85.4143 mm): Pad E5 [/Left2040/SDA] of IC7 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.1133 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(245.0639 mm, 94.2763 mm): Via [/Left2040/SPLIT_HAND] on F.Cu - B.Cu
+    @(245.3115 mm, 93.4698 mm): Pad 5 [/Left2040/SCL] of U3 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0900 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(302.9305 mm, 77.4879 mm): Track [Net-(RN27-R4.1)] on F.Cu, length 1.0184 mm
+    @(301.7430 mm, 77.2677 mm): Track [Net-(RN28-R1.1)] on F.Cu, length 0.9975 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0900 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(302.9305 mm, 77.4879 mm): Track [Net-(RN27-R4.1)] on F.Cu, length 1.0184 mm
+    @(302.7405 mm, 77.2677 mm): Track [Net-(RN28-R1.1)] on F.Cu, length 1.1172 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0900 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(302.9305 mm, 77.4879 mm): Track [Net-(RN27-R4.1)] on F.Cu, length 1.0184 mm
+    @(303.5305 mm, 76.4777 mm): Track [Net-(RN28-R1.1)] on F.Cu, length 2.1000 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0900 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(303.6506 mm, 76.7677 mm): Track [Net-(RN27-R4.1)] on F.Cu, length 1.2999 mm
+    @(302.7405 mm, 77.2677 mm): Track [Net-(RN28-R1.1)] on F.Cu, length 1.1172 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0900 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(303.6506 mm, 76.7677 mm): Track [Net-(RN27-R4.1)] on F.Cu, length 1.2999 mm
+    @(303.5305 mm, 76.4777 mm): Track [Net-(RN28-R1.1)] on F.Cu, length 2.1000 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0900 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(304.9505 mm, 76.7677 mm): Track [Net-(RN27-R4.1)] on F.Cu, length 1.0465 mm
+    @(303.5305 mm, 76.4777 mm): Track [Net-(RN28-R1.1)] on F.Cu, length 2.1000 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0908 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(302.9305 mm, 77.9344 mm): Track [Net-(RN27-R4.1)] on F.Cu, length 0.4466 mm
+    @(301.7430 mm, 77.2677 mm): Track [Net-(RN28-R1.1)] on F.Cu, length 0.9975 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0908 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(302.9305 mm, 77.9344 mm): Track [Net-(RN27-R4.1)] on F.Cu, length 0.4466 mm
+    @(302.7405 mm, 77.2677 mm): Track [Net-(RN28-R1.1)] on F.Cu, length 1.1172 mm
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(280.1774 mm, 179.3304 mm): NPTH pad of SW27
+    @(281.6316 mm, 180.1446 mm): Pad 1 [+3V3_L] of SW27 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(124.3462 mm, 197.4687 mm): NPTH pad of SW68
+    @(125.4342 mm, 198.7312 mm): Pad 1 [/Right2040/k07] of SW68 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(383.8060 mm, 166.3687 mm): NPTH pad of SW19
+    @(384.8940 mm, 167.6312 mm): Pad 1 [+3V3_L] of SW19 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(223.2952 mm, 135.9886 mm): PTH pad [<no net>] of J37
+    @(223.9952 mm, 135.5636 mm): Pad [<no net>] of J37 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(223.2952 mm, 135.9886 mm): PTH pad [<no net>] of J37
+    @(223.9952 mm, 135.5636 mm): Pad [<no net>] of J37 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(223.9952 mm, 135.5636 mm): Pad [<no net>] of J37 on F.Cu
+    @(223.2952 mm, 135.1886 mm): PTH pad [<no net>] of J37
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(223.9952 mm, 135.5636 mm): Pad [<no net>] of J37 on F.Cu
+    @(223.9952 mm, 135.1886 mm): PTH pad [<no net>] of J37
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(223.9952 mm, 135.5636 mm): Pad [<no net>] of J37 on F.Cu
+    @(224.6952 mm, 135.1886 mm): PTH pad [<no net>] of J37
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(223.9952 mm, 135.5636 mm): Pad [<no net>] of J37 on B.Cu
+    @(223.9952 mm, 135.1886 mm): PTH pad [<no net>] of J37
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(223.9952 mm, 135.5636 mm): Pad [<no net>] of J37 on B.Cu
+    @(224.6952 mm, 135.1886 mm): PTH pad [<no net>] of J37
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(223.9952 mm, 135.5636 mm): Pad [<no net>] of J37 on B.Cu
+    @(223.2952 mm, 135.1886 mm): PTH pad [<no net>] of J37
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.1000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(223.2952 mm, 135.1886 mm): PTH pad [<no net>] of J37
+    @(223.9952 mm, 135.1886 mm): PTH pad [<no net>] of J37
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.1000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(223.9952 mm, 135.1886 mm): PTH pad [<no net>] of J37
+    @(224.6952 mm, 135.1886 mm): PTH pad [<no net>] of J37
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(223.2952 mm, 130.7886 mm): PTH pad [<no net>] of J37
+    @(223.9952 mm, 130.4136 mm): Pad [<no net>] of J37 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.1000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(223.2952 mm, 130.7886 mm): PTH pad [<no net>] of J37
+    @(223.9952 mm, 130.7886 mm): PTH pad [<no net>] of J37
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(223.2952 mm, 130.7886 mm): PTH pad [<no net>] of J37
+    @(223.9952 mm, 130.4136 mm): Pad [<no net>] of J37 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.1000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(223.9952 mm, 130.7886 mm): PTH pad [<no net>] of J37
+    @(224.6952 mm, 130.7886 mm): PTH pad [<no net>] of J37
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(223.9952 mm, 130.7886 mm): PTH pad [<no net>] of J37
+    @(223.9952 mm, 130.4136 mm): Pad [<no net>] of J37 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(223.9952 mm, 130.7886 mm): PTH pad [<no net>] of J37
+    @(223.9952 mm, 130.4136 mm): Pad [<no net>] of J37 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(224.6952 mm, 130.7886 mm): PTH pad [<no net>] of J37
+    @(223.9952 mm, 130.4136 mm): Pad [<no net>] of J37 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(224.6952 mm, 130.7886 mm): PTH pad [<no net>] of J37
+    @(223.9952 mm, 130.4136 mm): Pad [<no net>] of J37 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(223.9952 mm, 130.4136 mm): Pad [<no net>] of J37 on F.Cu
+    @(223.2952 mm, 130.0386 mm): PTH pad [<no net>] of J37
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(223.9952 mm, 130.4136 mm): Pad [<no net>] of J37 on B.Cu
+    @(223.2952 mm, 130.0386 mm): PTH pad [<no net>] of J37
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(307.6060 mm, 121.2687 mm): NPTH pad of SW11
+    @(308.6940 mm, 122.5312 mm): Pad 1 [/Left2040/k23] of SW11 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(319.6560 mm, 178.4187 mm): NPTH pad of SW25
+    @(320.7440 mm, 179.6812 mm): Pad 1 [+3V3_L] of SW25 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(85.7462 mm, 140.3187 mm): NPTH pad of SW52
+    @(86.8342 mm, 141.5812 mm): Pad 1 [+3V3] of SW52 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(179.1300 mm, 216.3116 mm): NPTH pad of SW71
+    @(179.5825 mm, 217.9156 mm): Pad 1 [+3V3] of SW71 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(85.7462 mm, 159.3687 mm): NPTH pad of SW58
+    @(86.8342 mm, 160.6312 mm): Pad 1 [+3V3] of SW58 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(47.6462 mm, 128.2687 mm): NPTH pad of SW44
+    @(48.7342 mm, 129.5312 mm): Pad 1 [+3V3] of SW44 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(197.5517 mm, 130.0501 mm): PTH pad [<no net>] of J32
+    @(196.8517 mm, 130.4751 mm): Pad [<no net>] of J32 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(197.5517 mm, 130.0501 mm): PTH pad [<no net>] of J32
+    @(196.8517 mm, 130.4751 mm): Pad [<no net>] of J32 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(196.8517 mm, 130.4751 mm): Pad [<no net>] of J32 on F.Cu
+    @(197.5517 mm, 130.8501 mm): PTH pad [<no net>] of J32
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(196.8517 mm, 130.4751 mm): Pad [<no net>] of J32 on F.Cu
+    @(196.8517 mm, 130.8501 mm): PTH pad [<no net>] of J32
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(196.8517 mm, 130.4751 mm): Pad [<no net>] of J32 on F.Cu
+    @(196.1517 mm, 130.8501 mm): PTH pad [<no net>] of J32
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(196.8517 mm, 130.4751 mm): Pad [<no net>] of J32 on B.Cu
+    @(196.8517 mm, 130.8501 mm): PTH pad [<no net>] of J32
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(196.8517 mm, 130.4751 mm): Pad [<no net>] of J32 on B.Cu
+    @(197.5517 mm, 130.8501 mm): PTH pad [<no net>] of J32
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(196.8517 mm, 130.4751 mm): Pad [<no net>] of J32 on B.Cu
+    @(196.1517 mm, 130.8501 mm): PTH pad [<no net>] of J32
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.1000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(197.5517 mm, 130.8501 mm): PTH pad [<no net>] of J32
+    @(196.8517 mm, 130.8501 mm): PTH pad [<no net>] of J32
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.1000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(196.8517 mm, 130.8501 mm): PTH pad [<no net>] of J32
+    @(196.1517 mm, 130.8501 mm): PTH pad [<no net>] of J32
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.1000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(197.5517 mm, 135.2501 mm): PTH pad [<no net>] of J32
+    @(196.8517 mm, 135.2501 mm): PTH pad [<no net>] of J32
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(197.5517 mm, 135.2501 mm): PTH pad [<no net>] of J32
+    @(196.8517 mm, 135.6251 mm): Pad [<no net>] of J32 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(197.5517 mm, 135.2501 mm): PTH pad [<no net>] of J32
+    @(196.8517 mm, 135.6251 mm): Pad [<no net>] of J32 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.1000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(196.8517 mm, 135.2501 mm): PTH pad [<no net>] of J32
+    @(196.1517 mm, 135.2501 mm): PTH pad [<no net>] of J32
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(196.8517 mm, 135.2501 mm): PTH pad [<no net>] of J32
+    @(196.8517 mm, 135.6251 mm): Pad [<no net>] of J32 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(196.8517 mm, 135.2501 mm): PTH pad [<no net>] of J32
+    @(196.8517 mm, 135.6251 mm): Pad [<no net>] of J32 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(196.1517 mm, 135.2501 mm): PTH pad [<no net>] of J32
+    @(196.8517 mm, 135.6251 mm): Pad [<no net>] of J32 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(196.1517 mm, 135.2501 mm): PTH pad [<no net>] of J32
+    @(196.8517 mm, 135.6251 mm): Pad [<no net>] of J32 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(196.8517 mm, 135.6251 mm): Pad [<no net>] of J32 on F.Cu
+    @(197.5517 mm, 136.0001 mm): PTH pad [<no net>] of J32
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(196.8517 mm, 135.6251 mm): Pad [<no net>] of J32 on B.Cu
+    @(197.5517 mm, 136.0001 mm): PTH pad [<no net>] of J32
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(288.5560 mm, 140.3186 mm): NPTH pad of SW18
+    @(289.6440 mm, 141.5812 mm): Pad 1 [+3V3_L] of SW18 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(307.6060 mm, 140.3187 mm): NPTH pad of SW17
+    @(308.6940 mm, 141.5812 mm): Pad 1 [/Left2040/k25] of SW17 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(47.6462 mm, 109.2187 mm): NPTH pad of SW38
+    @(48.7342 mm, 110.4812 mm): Pad 1 [+3V3] of SW38 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(326.6560 mm, 136.3187 mm): NPTH pad of SW16
+    @(327.7440 mm, 137.5812 mm): Pad 1 [+3V3_L] of SW16 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(142.8962 mm, 102.2187 mm): NPTH pad of SW43
+    @(143.9842 mm, 103.4812 mm): Pad 1 [+3V3] of SW43 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(326.6560 mm, 98.2187 mm): NPTH pad of SW4
+    @(327.7440 mm, 99.4812 mm): Pad 1 [+3V3_L] of SW4 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(315.6560 mm, 193.6687 mm): NPTH pad of SW30
+    @(314.6653 mm, 193.9564 mm): Pad MP2 [GND2] of J30 on B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(315.9510 mm, 193.6437 mm): NPTH pad of SW30
+    @(314.6653 mm, 193.9564 mm): Pad MP2 [GND2] of J30 on B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(317.2210 mm, 196.1837 mm): NPTH pad of SW30
+    @(314.6653 mm, 193.9564 mm): Pad MP2 [GND2] of J30 on B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2194 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(321.1560 mm, 199.5687 mm): NPTH pad of SW30
+    @(323.5403 mm, 200.9564 mm): Pad A1 [/Left2040/ENCA1] of J30 on B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(321.1560 mm, 199.5687 mm): NPTH pad of SW30
+    @(321.0403 mm, 200.9564 mm): Pad C1 [GND2] of J30 on B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(323.5710 mm, 198.7237 mm): NPTH pad of SW30
+    @(323.5403 mm, 200.9564 mm): Pad A1 [/Left2040/ENCA1] of J30 on B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2098 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(323.5710 mm, 198.7237 mm): NPTH pad of SW30
+    @(326.0403 mm, 201.5564 mm): Pad MP4 [GND2] of J30 on B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(326.1110 mm, 193.6437 mm): NPTH pad of SW30
+    @(327.4153 mm, 193.9564 mm): Pad MP1 [GND2] of J30 on B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(326.1560 mm, 197.4687 mm): NPTH pad of SW30
+    @(327.2440 mm, 198.7312 mm): Pad 1 [+3V3_L] of SW30 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(326.1560 mm, 197.4687 mm): NPTH pad of SW30
+    @(327.4153 mm, 193.9564 mm): Pad MP1 [GND2] of J30 on B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(326.6560 mm, 193.6687 mm): NPTH pad of SW30
+    @(327.4153 mm, 193.9564 mm): Pad MP1 [GND2] of J30 on B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(142.8962 mm, 121.2687 mm): NPTH pad of SW49
+    @(143.9842 mm, 122.5312 mm): Pad 1 [+3V3] of SW49 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(142.8962 mm, 159.3687 mm): NPTH pad of SW61
+    @(143.9842 mm, 160.6312 mm): Pad 1 [+3V3] of SW61 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(383.8060 mm, 147.3187 mm): NPTH pad of SW13
+    @(384.8940 mm, 148.5812 mm): Pad 1 [+3V3_L] of SW13 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(247.3589 mm, 175.1679 mm): PTH pad [<no net>] of J31
+    @(246.9339 mm, 174.4679 mm): Pad [<no net>] of J31 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(247.3589 mm, 175.1679 mm): PTH pad [<no net>] of J31
+    @(246.9339 mm, 174.4679 mm): Pad [<no net>] of J31 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(246.9339 mm, 174.4679 mm): Pad [<no net>] of J31 on F.Cu
+    @(246.5589 mm, 173.7679 mm): PTH pad [<no net>] of J31
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(246.9339 mm, 174.4679 mm): Pad [<no net>] of J31 on F.Cu
+    @(246.5589 mm, 175.1679 mm): PTH pad [<no net>] of J31
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(246.9339 mm, 174.4679 mm): Pad [<no net>] of J31 on F.Cu
+    @(246.5589 mm, 174.4679 mm): PTH pad [<no net>] of J31
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(246.9339 mm, 174.4679 mm): Pad [<no net>] of J31 on B.Cu
+    @(246.5589 mm, 174.4679 mm): PTH pad [<no net>] of J31
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(246.9339 mm, 174.4679 mm): Pad [<no net>] of J31 on B.Cu
+    @(246.5589 mm, 173.7679 mm): PTH pad [<no net>] of J31
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(246.9339 mm, 174.4679 mm): Pad [<no net>] of J31 on B.Cu
+    @(246.5589 mm, 175.1679 mm): PTH pad [<no net>] of J31
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.1000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(246.5589 mm, 175.1679 mm): PTH pad [<no net>] of J31
+    @(246.5589 mm, 174.4679 mm): PTH pad [<no net>] of J31
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.1000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(246.5589 mm, 174.4679 mm): PTH pad [<no net>] of J31
+    @(246.5589 mm, 173.7679 mm): PTH pad [<no net>] of J31
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.1000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(242.1589 mm, 175.1679 mm): PTH pad [<no net>] of J31
+    @(242.1589 mm, 174.4679 mm): PTH pad [<no net>] of J31
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(242.1589 mm, 175.1679 mm): PTH pad [<no net>] of J31
+    @(241.7839 mm, 174.4679 mm): Pad [<no net>] of J31 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(242.1589 mm, 175.1679 mm): PTH pad [<no net>] of J31
+    @(241.7839 mm, 174.4679 mm): Pad [<no net>] of J31 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.1000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(242.1589 mm, 174.4679 mm): PTH pad [<no net>] of J31
+    @(242.1589 mm, 173.7679 mm): PTH pad [<no net>] of J31
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(242.1589 mm, 174.4679 mm): PTH pad [<no net>] of J31
+    @(241.7839 mm, 174.4679 mm): Pad [<no net>] of J31 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(242.1589 mm, 174.4679 mm): PTH pad [<no net>] of J31
+    @(241.7839 mm, 174.4679 mm): Pad [<no net>] of J31 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(242.1589 mm, 173.7679 mm): PTH pad [<no net>] of J31
+    @(241.7839 mm, 174.4679 mm): Pad [<no net>] of J31 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(242.1589 mm, 173.7679 mm): PTH pad [<no net>] of J31
+    @(241.7839 mm, 174.4679 mm): Pad [<no net>] of J31 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(241.7839 mm, 174.4679 mm): Pad [<no net>] of J31 on F.Cu
+    @(241.4089 mm, 175.1679 mm): PTH pad [<no net>] of J31
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(241.7839 mm, 174.4679 mm): Pad [<no net>] of J31 on B.Cu
+    @(241.4089 mm, 175.1679 mm): PTH pad [<no net>] of J31
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(364.7560 mm, 128.2687 mm): NPTH pad of SW8
+    @(365.8440 mm, 129.5312 mm): Pad 1 [/Left2040/k45] of SW8 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.1292 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(224.6093 mm, 108.6061 mm): PTH pad 1 [/Left2040/LCD_BL_BARE] of JP5
+    @(223.7305 mm, 108.6207 mm): Pad 2 [/Left2040/LCD_BL_DIRECT] of JP5 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.1292 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(224.6093 mm, 108.6061 mm): PTH pad 1 [/Left2040/LCD_BL_BARE] of JP5
+    @(223.7305 mm, 108.6207 mm): Pad 2 [/Left2040/LCD_BL_DIRECT] of JP5 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0990 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(224.3705 mm, 108.8707 mm): Pad 1 [/Left2040/LCD_BL_BARE] of JP5 on F.Cu
+    @(223.7305 mm, 108.6207 mm): Pad 2 [/Left2040/LCD_BL_DIRECT] of JP5 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0990 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(224.3705 mm, 108.8707 mm): Pad 1 [/Left2040/LCD_BL_BARE] of JP5 on B.Cu
+    @(223.7305 mm, 108.6207 mm): Pad 2 [/Left2040/LCD_BL_DIRECT] of JP5 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0990 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(224.3705 mm, 108.3707 mm): Pad 1 [/Left2040/LCD_BL_BARE] of JP5 on F.Cu
+    @(223.7305 mm, 108.6207 mm): Pad 2 [/Left2040/LCD_BL_DIRECT] of JP5 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0990 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(224.3705 mm, 108.3707 mm): Pad 1 [/Left2040/LCD_BL_BARE] of JP5 on B.Cu
+    @(223.7305 mm, 108.6207 mm): Pad 2 [/Left2040/LCD_BL_DIRECT] of JP5 on B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(150.6578 mm, 182.8297 mm): NPTH pad of SW64
+    @(151.2484 mm, 184.3882 mm): Pad 1 [+3V3] of SW64 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(307.1060 mm, 197.4687 mm): NPTH pad of SW31
+    @(308.1940 mm, 198.7312 mm): Pad 1 [/Left2040/k10] of SW31 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(364.7560 mm, 166.3687 mm): NPTH pad of SW20
+    @(365.8440 mm, 167.6312 mm): Pad 1 [/Left2040/k40] of SW20 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.1292 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(199.0796 mm, 84.2712 mm): PTH pad 1 [LCD_BL_BARE] of JP4
+    @(199.9584 mm, 84.2566 mm): Pad 2 [/Right2040/LCD_BL_DIRECT] of JP4 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.1292 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(199.0796 mm, 84.2712 mm): PTH pad 1 [LCD_BL_BARE] of JP4
+    @(199.9584 mm, 84.2566 mm): Pad 2 [/Right2040/LCD_BL_DIRECT] of JP4 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0990 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(199.3184 mm, 84.0066 mm): Pad 1 [LCD_BL_BARE] of JP4 on F.Cu
+    @(199.9584 mm, 84.2566 mm): Pad 2 [/Right2040/LCD_BL_DIRECT] of JP4 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0990 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(199.3184 mm, 84.0066 mm): Pad 1 [LCD_BL_BARE] of JP4 on B.Cu
+    @(199.9584 mm, 84.2566 mm): Pad 2 [/Right2040/LCD_BL_DIRECT] of JP4 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0990 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(199.3184 mm, 84.5066 mm): Pad 1 [LCD_BL_BARE] of JP4 on F.Cu
+    @(199.9584 mm, 84.2566 mm): Pad 2 [/Right2040/LCD_BL_DIRECT] of JP4 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0990 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(199.3184 mm, 84.5066 mm): Pad 1 [LCD_BL_BARE] of JP4 on B.Cu
+    @(199.9584 mm, 84.2566 mm): Pad 2 [/Right2040/LCD_BL_DIRECT] of JP4 on B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(111.7962 mm, 178.4351 mm): NPTH pad of SW62
+    @(112.8842 mm, 179.6976 mm): Pad 1 [+3V3] of SW62 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(65.7505 mm, 75.2941 mm): Pad 1 [GND] of JP11 on F.Cu
+    @(65.7505 mm, 75.2941 mm): Line on F.Cu
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0000 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(64.7345 mm, 75.2941 mm): Pad 2 [/Right2040/ADDR0] of JP11 on F.Cu
+    @(65.7505 mm, 75.2941 mm): Line on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(85.7462 mm, 121.2686 mm): NPTH pad of SW46
+    @(86.8342 mm, 122.5312 mm): Pad 1 [+3V3] of SW46 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(187.1809 mm, 199.0464 mm): NPTH pad of SW66
+    @(187.6334 mm, 200.6505 mm): Pad 1 [+3V3] of SW66 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(345.7060 mm, 159.3686 mm): NPTH pad of SW21
+    @(346.7940 mm, 160.6312 mm): Pad 1 [+3V3_L] of SW21 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(364.7560 mm, 109.2187 mm): NPTH pad of SW2
+    @(365.8440 mm, 110.4812 mm): Pad 1 [/Left2040/k47] of SW2 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(66.6962 mm, 128.2687 mm): NPTH pad of SW45
+    @(67.7842 mm, 129.5312 mm): Pad 1 [/Right2040/k41] of SW45 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(326.6560 mm, 117.2686 mm): NPTH pad of SW10
+    @(327.7440 mm, 118.5311 mm): Pad 1 [+3V3_L] of SW10 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(300.6060 mm, 178.4187 mm): NPTH pad of SW26
+    @(301.6940 mm, 179.6812 mm): Pad 1 [/Left2040/k06] of SW26 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(288.5560 mm, 121.2687 mm): NPTH pad of SW12
+    @(289.6440 mm, 122.5312 mm): Pad 1 [+3V3_L] of SW12 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2082 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(289.6440 mm, 122.5312 mm): Pad 1 [+3V3_L] of SW12 on F.Cu
+    @(292.9560 mm, 126.9687 mm): NPTH pad of H16
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(288.5560 mm, 159.3687 mm): NPTH pad of SW24
+    @(289.6440 mm, 160.6312 mm): Pad 1 [+3V3_L] of SW24 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(251.3636 mm, 211.9876 mm): NPTH pad of SW34
+    @(252.8832 mm, 212.6720 mm): Pad 1 [+3V3_L] of SW34 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(161.8649 mm, 208.2607 mm): NPTH pad of SW70
+    @(162.3174 mm, 209.8647 mm): Pad 1 [/Right2040/k05] of SW70 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(383.8060 mm, 109.2187 mm): NPTH pad of SW1
+    @(384.8940 mm, 110.4812 mm): Pad 1 [+3V3_L] of SW1 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(130.8462 mm, 178.4187 mm): NPTH pad of SW63
+    @(131.9342 mm, 179.6812 mm): Pad 1 [/Right2040/k00] of SW63 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(345.7060 mm, 140.3187 mm): NPTH pad of SW15
+    @(346.7940 mm, 141.5812 mm): Pad 1 [+3V3_L] of SW15 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(268.6288 mm, 203.9367 mm): NPTH pad of SW33
+    @(270.1484 mm, 204.6212 mm): Pad 1 [/Left2040/k01] of SW33 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(66.6962 mm, 109.2186 mm): NPTH pad of SW39
+    @(67.7842 mm, 110.4812 mm): Pad 1 [/Right2040/k40] of SW39 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(307.6060 mm, 159.3687 mm): NPTH pad of SW23
+    @(308.6940 mm, 160.6312 mm): Pad 1 [/Left2040/k27] of SW23 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(123.8462 mm, 159.3687 mm): NPTH pad of SW60
+    @(124.9342 mm, 160.6312 mm): Pad 1 [/Right2040/k27] of SW60 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(288.5560 mm, 102.2187 mm): NPTH pad of SW6
+    @(289.6440 mm, 103.4812 mm): Pad 1 [+3V3_L] of SW6 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(85.7462 mm, 102.2187 mm): NPTH pad of SW40
+    @(86.8342 mm, 103.4812 mm): Pad 1 [+3V3] of SW40 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(363.4990 mm, 89.4277 mm): Pad 1 [GND2] of JP2 on F.Cu
+    @(363.4990 mm, 89.4277 mm): Line on F.Cu
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0000 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(362.4830 mm, 89.4277 mm): Pad 2 [/Left2040/ADDR0] of JP2 on F.Cu
+    @(363.4990 mm, 89.4277 mm): Line on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(123.8462 mm, 102.2187 mm): NPTH pad of SW42
+    @(124.9342 mm, 103.4812 mm): Pad 1 [/Right2040/k24] of SW42 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(94.7962 mm, 193.6687 mm): NPTH pad of SW67
+    @(93.8055 mm, 193.9563 mm): Pad MP2 [GND] of J28 on B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(95.0912 mm, 193.6437 mm): NPTH pad of SW67
+    @(93.8055 mm, 193.9563 mm): Pad MP2 [GND] of J28 on B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(96.3612 mm, 196.1837 mm): NPTH pad of SW67
+    @(93.8055 mm, 193.9563 mm): Pad MP2 [GND] of J28 on B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2194 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(100.2962 mm, 199.5687 mm): NPTH pad of SW67
+    @(102.6805 mm, 200.9563 mm): Pad A1 [/Right2040/ENCA1] of J28 on B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(100.2962 mm, 199.5687 mm): NPTH pad of SW67
+    @(100.1805 mm, 200.9563 mm): Pad C1 [GND] of J28 on B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(102.7112 mm, 198.7237 mm): NPTH pad of SW67
+    @(102.6805 mm, 200.9563 mm): Pad A1 [/Right2040/ENCA1] of J28 on B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2098 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(102.7112 mm, 198.7237 mm): NPTH pad of SW67
+    @(105.1805 mm, 201.5564 mm): Pad MP4 [GND] of J28 on B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(105.2512 mm, 193.6437 mm): NPTH pad of SW67
+    @(106.5555 mm, 193.9563 mm): Pad MP1 [GND] of J28 on B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(105.2962 mm, 197.4687 mm): NPTH pad of SW67
+    @(106.3842 mm, 198.7312 mm): Pad 1 [+3V3] of SW67 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(105.2962 mm, 197.4687 mm): NPTH pad of SW67
+    @(106.5555 mm, 193.9563 mm): Pad MP1 [GND] of J28 on B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(105.7962 mm, 193.6687 mm): NPTH pad of SW67
+    @(106.5555 mm, 193.9563 mm): Pad MP1 [GND] of J28 on B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(286.6929 mm, 197.2315 mm): NPTH pad of SW32
+    @(288.1471 mm, 198.0458 mm): Pad 1 [+3V3_L] of SW32 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(104.7962 mm, 155.3687 mm): NPTH pad of SW59
+    @(105.8842 mm, 156.6312 mm): Pad 1 [+3V3] of SW59 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(66.6962 mm, 147.3186 mm): NPTH pad of SW51
+    @(67.7842 mm, 148.5811 mm): Pad 1 [/Right2040/k42] of SW51 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(260.5779 mm, 186.6716 mm): NPTH pad of SW28
+    @(262.0975 mm, 187.3560 mm): Pad 1 [/Left2040/k04] of SW28 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(383.8060 mm, 128.2687 mm): NPTH pad of SW7
+    @(384.8940 mm, 129.5312 mm): Pad 1 [+3V3_L] of SW7 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(345.7060 mm, 121.2687 mm): NPTH pad of SW9
+    @(346.7940 mm, 122.5312 mm): Pad 1 [+3V3_L] of SW9 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(326.6560 mm, 155.3687 mm): NPTH pad of SW22
+    @(327.7440 mm, 156.6312 mm): Pad 1 [+3V3_L] of SW22 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(364.7560 mm, 147.3187 mm): NPTH pad of SW14
+    @(365.8440 mm, 148.5812 mm): Pad 1 [/Left2040/k43] of SW14 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(345.7060 mm, 102.2187 mm): NPTH pad of SW3
+    @(346.7940 mm, 103.4812 mm): Pad 1 [+3V3_L] of SW3 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(47.6462 mm, 166.3687 mm): NPTH pad of SW56
+    @(48.7342 mm, 167.6312 mm): Pad 1 [+3V3] of SW56 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(169.9158 mm, 190.9956 mm): NPTH pad of SW65
+    @(170.3683 mm, 192.5996 mm): Pad 1 [/Right2040/k02] of SW65 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(47.6462 mm, 147.3187 mm): NPTH pad of SW50
+    @(48.7342 mm, 148.5812 mm): Pad 1 [+3V3] of SW50 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(65.7385 mm, 77.1042 mm): Pad 1 [GND] of JP9 on F.Cu
+    @(65.7385 mm, 77.1042 mm): Line on F.Cu
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0000 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(64.7225 mm, 77.1042 mm): Pad 2 [/Right2040/ADDR1] of JP9 on F.Cu
+    @(65.7385 mm, 77.1042 mm): Line on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(66.6962 mm, 166.3687 mm): NPTH pad of SW57
+    @(67.7842 mm, 167.6312 mm): Pad 1 [/Right2040/k43] of SW57 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(123.8462 mm, 140.3187 mm): NPTH pad of SW54
+    @(124.9342 mm, 141.5812 mm): Pad 1 [/Right2040/k26] of SW54 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(307.6060 mm, 102.2187 mm): NPTH pad of SW5
+    @(308.6940 mm, 103.4812 mm): Pad 1 [/Left2040/k21] of SW5 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(144.1423 mm, 200.7309 mm): NPTH pad of SW69
+    @(144.7329 mm, 202.2893 mm): Pad 1 [+3V3] of SW69 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(179.8621 mm, 175.1679 mm): PTH pad [<no net>] of J33
+    @(179.4371 mm, 174.4679 mm): Pad [<no net>] of J33 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(179.8621 mm, 175.1679 mm): PTH pad [<no net>] of J33
+    @(179.4371 mm, 174.4679 mm): Pad [<no net>] of J33 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(179.4371 mm, 174.4679 mm): Pad [<no net>] of J33 on F.Cu
+    @(179.0621 mm, 174.4679 mm): PTH pad [<no net>] of J33
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(179.4371 mm, 174.4679 mm): Pad [<no net>] of J33 on F.Cu
+    @(179.0621 mm, 173.7679 mm): PTH pad [<no net>] of J33
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(179.4371 mm, 174.4679 mm): Pad [<no net>] of J33 on F.Cu
+    @(179.0621 mm, 175.1679 mm): PTH pad [<no net>] of J33
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(179.4371 mm, 174.4679 mm): Pad [<no net>] of J33 on B.Cu
+    @(179.0621 mm, 175.1679 mm): PTH pad [<no net>] of J33
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(179.4371 mm, 174.4679 mm): Pad [<no net>] of J33 on B.Cu
+    @(179.0621 mm, 174.4679 mm): PTH pad [<no net>] of J33
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(179.4371 mm, 174.4679 mm): Pad [<no net>] of J33 on B.Cu
+    @(179.0621 mm, 173.7679 mm): PTH pad [<no net>] of J33
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.1000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(179.0621 mm, 175.1679 mm): PTH pad [<no net>] of J33
+    @(179.0621 mm, 174.4679 mm): PTH pad [<no net>] of J33
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.1000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(179.0621 mm, 174.4679 mm): PTH pad [<no net>] of J33
+    @(179.0621 mm, 173.7679 mm): PTH pad [<no net>] of J33
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.1000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(174.6621 mm, 175.1679 mm): PTH pad [<no net>] of J33
+    @(174.6621 mm, 174.4679 mm): PTH pad [<no net>] of J33
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(174.6621 mm, 175.1679 mm): PTH pad [<no net>] of J33
+    @(174.2871 mm, 174.4679 mm): Pad [<no net>] of J33 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(174.6621 mm, 175.1679 mm): PTH pad [<no net>] of J33
+    @(174.2871 mm, 174.4679 mm): Pad [<no net>] of J33 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.1000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(174.6621 mm, 174.4679 mm): PTH pad [<no net>] of J33
+    @(174.6621 mm, 173.7679 mm): PTH pad [<no net>] of J33
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(174.6621 mm, 174.4679 mm): PTH pad [<no net>] of J33
+    @(174.2871 mm, 174.4679 mm): Pad [<no net>] of J33 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(174.6621 mm, 174.4679 mm): PTH pad [<no net>] of J33
+    @(174.2871 mm, 174.4679 mm): Pad [<no net>] of J33 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(174.6621 mm, 173.7679 mm): PTH pad [<no net>] of J33
+    @(174.2871 mm, 174.4679 mm): Pad [<no net>] of J33 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(174.6621 mm, 173.7679 mm): PTH pad [<no net>] of J33
+    @(174.2871 mm, 174.4679 mm): Pad [<no net>] of J33 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(174.2871 mm, 174.4679 mm): Pad [<no net>] of J33 on F.Cu
+    @(173.9121 mm, 175.1679 mm): PTH pad [<no net>] of J33
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(174.2871 mm, 174.4679 mm): Pad [<no net>] of J33 on B.Cu
+    @(173.9121 mm, 175.1679 mm): PTH pad [<no net>] of J33
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(123.8462 mm, 121.2687 mm): NPTH pad of SW48
+    @(124.9342 mm, 122.5312 mm): Pad 1 [/Right2040/k25] of SW48 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2082 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(124.9342 mm, 122.5312 mm): Pad 1 [/Right2040/k25] of SW48 on F.Cu
+    @(128.2462 mm, 126.9687 mm): NPTH pad of H11
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(363.5085 mm, 87.8877 mm): Pad 1 [GND2] of JP1 on F.Cu
+    @(363.5085 mm, 87.8877 mm): Line on F.Cu
+[clearance]: Clearance violation (netclass 'BGA' clearance 0.1000 mm; actual 0.0000 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(362.4925 mm, 87.8877 mm): Pad 2 [/Left2040/ADDR1] of JP1 on F.Cu
+    @(363.5085 mm, 87.8877 mm): Line on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(104.7962 mm, 117.2687 mm): NPTH pad of SW47
+    @(105.8842 mm, 118.5312 mm): Pad 1 [+3V3] of SW47 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(243.3127 mm, 194.7225 mm): NPTH pad of SW29
+    @(244.8323 mm, 195.4069 mm): Pad 1 [+3V3_L] of SW29 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(104.7962 mm, 98.2187 mm): NPTH pad of SW41
+    @(105.8842 mm, 99.4812 mm): Pad 1 [+3V3] of SW41 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(142.8962 mm, 140.3187 mm): NPTH pad of SW55
+    @(143.9842 mm, 141.5812 mm): Pad 1 [+3V3] of SW55 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(104.7962 mm, 136.3187 mm): NPTH pad of SW53
+    @(105.8842 mm, 137.5812 mm): Pad 1 [+3V3] of SW53 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2250 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(100.1805 mm, 198.1564 mm): NPTH pad of J28
+    @(100.1805 mm, 200.9563 mm): Pad C1 [GND] of J28 on B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2250 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(321.0403 mm, 198.1564 mm): NPTH pad of J30
+    @(321.0403 mm, 200.9564 mm): Pad C1 [GND2] of J30 on B.Cu
+[malformed_courtyard]: Footprint has malformed courtyard (not a closed shape)
+    Local override; Severity: error
+    @(371.3105 mm, 77.3277 mm): Footprint D91
+[malformed_courtyard]: Footprint has malformed courtyard (self-intersecting)
+    Local override; Severity: error
+    @(371.3105 mm, 77.3277 mm): Footprint D91
+[malformed_courtyard]: Footprint has malformed courtyard (not a closed shape)
+    Local override; Severity: error
+    @(51.1121 mm, 77.1370 mm): Footprint D39
+[malformed_courtyard]: Footprint has malformed courtyard (self-intersecting)
+    Local override; Severity: error
+    @(80.6305 mm, 117.4563 mm): Footprint SW46
+[malformed_courtyard]: Footprint has malformed courtyard (not a closed shape)
+    Local override; Severity: error
+    @(375.1905 mm, 79.7177 mm): Footprint D2
+[malformed_courtyard]: Footprint has malformed courtyard (self-intersecting)
+    Local override; Severity: error
+    @(375.1905 mm, 79.7177 mm): Footprint D2
+[malformed_courtyard]: Footprint has malformed courtyard (self-intersecting)
+    Local override; Severity: error
+    @(375.1905 mm, 79.7177 mm): Footprint D2
+[malformed_courtyard]: Footprint has malformed courtyard (self-intersecting)
+    Local override; Severity: error
+    @(375.1905 mm, 79.7177 mm): Footprint D2
+[malformed_courtyard]: Footprint has malformed courtyard (self-intersecting)
+    Local override; Severity: error
+    @(80.6305 mm, 98.4064 mm): Footprint SW40
+[malformed_courtyard]: Footprint has malformed courtyard (not a closed shape)
+    Local override; Severity: error
+    @(173.0517 mm, 76.8501 mm): Footprint D86
+[malformed_courtyard]: Footprint has malformed courtyard (self-intersecting)
+    Local override; Severity: error
+    @(173.0517 mm, 76.8501 mm): Footprint D86
+[malformed_courtyard]: Footprint has malformed courtyard (not a closed shape)
+    Local override; Severity: error
+    @(44.5905 mm, 79.7343 mm): Footprint D80
+[malformed_courtyard]: Footprint has malformed courtyard (self-intersecting)
+    Local override; Severity: error
+    @(44.5905 mm, 79.7343 mm): Footprint D80
+[malformed_courtyard]: Footprint has malformed courtyard (not a closed shape)
+    Local override; Severity: error
+    @(246.7105 mm, 77.8277 mm): Footprint D94
+[malformed_courtyard]: Footprint has malformed courtyard (self-intersecting)
+    Local override; Severity: error
+    @(246.7105 mm, 77.8277 mm): Footprint D94
+[malformed_courtyard]: Footprint has malformed courtyard (self-intersecting)
+    Local override; Severity: error
+    @(246.7105 mm, 77.8277 mm): Footprint D94
+[courtyards_overlap]: Courtyards overlap
+    Local override; Severity: error
+    @(321.0403 mm, 193.6564 mm): Footprint SW30
+    @(321.0403 mm, 193.6564 mm): Footprint J30
+[courtyards_overlap]: Courtyards overlap
+    Local override; Severity: error
+    @(100.1805 mm, 193.6564 mm): Footprint SW67
+    @(100.1805 mm, 193.6564 mm): Footprint J28
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(176.9320 mm, 96.8011 mm): Arc on Edge.Cuts
+    @(170.5093 mm, 114.3073 mm): Line on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(244.3342 mm, 96.8011 mm): Arc on Edge.Cuts
+    @(237.9115 mm, 114.3074 mm): Line on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(212.4400 mm, 132.2593 mm): Line on Edge.Cuts
+    @(213.9384 mm, 117.1363 mm): Footprint Text 'VCC' of J2
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(212.4400 mm, 132.2593 mm): Line on Edge.Cuts
+    @(213.9019 mm, 119.6763 mm): Footprint Text '~{RST}' of J2
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(212.4400 mm, 132.2593 mm): Line on Edge.Cuts
+    @(213.9384 mm, 122.2163 mm): Footprint Text 'GND' of J2
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: board setup constraints edge; Severity: error
+    @(170.3093 mm, 119.8823 mm): Line on Edge.Cuts
+    @(176.9530 mm, 120.6393 mm): Pad MP3 [Net-(FB31-Pad1)] of SW73 on B.Cu
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(170.3093 mm, 114.1323 mm): Line on Edge.Cuts
+    @(176.9530 mm, 143.9879 mm): Arc on B.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(182.8593 mm, 114.3823 mm): Line on Edge.Cuts
+    @(176.9530 mm, 143.9879 mm): Arc on B.Silkscreen
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: board setup constraints edge; Severity: error
+    @(237.7115 mm, 119.8823 mm): Line on Edge.Cuts
+    @(244.2747 mm, 120.6393 mm): Pad MP2 [Net-(FB40-Pad2)] of SW75 on B.Cu
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(237.7115 mm, 114.1323 mm): Line on Edge.Cuts
+    @(244.2748 mm, 143.9880 mm): Arc on B.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(250.2615 mm, 114.3823 mm): Line on Edge.Cuts
+    @(244.2747 mm, 143.8465 mm): Arc on B.Silkscreen
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(269.0110 mm, 179.3507 mm): NPTH pad of SW27
+    @(269.2796 mm, 179.2264 mm): NPTH pad of SW27
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(276.1972 mm, 183.0138 mm): NPTH pad of SW27
+    @(278.1775 mm, 181.3938 mm): NPTH pad of SW27
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(278.1775 mm, 181.3938 mm): NPTH pad of SW27
+    @(280.1774 mm, 179.3304 mm): NPTH pad of SW27
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(278.8269 mm, 175.7514 mm): NPTH pad of SW27
+    @(279.3476 mm, 175.5885 mm): NPTH pad of SW27
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(113.8462 mm, 193.6687 mm): NPTH pad of SW68
+    @(114.1412 mm, 193.6437 mm): NPTH pad of SW68
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(119.3462 mm, 199.5687 mm): NPTH pad of SW68
+    @(121.7612 mm, 198.7237 mm): NPTH pad of SW68
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(121.7612 mm, 198.7237 mm): NPTH pad of SW68
+    @(124.3462 mm, 197.4687 mm): NPTH pad of SW68
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(124.3012 mm, 193.6437 mm): NPTH pad of SW68
+    @(124.8462 mm, 193.6687 mm): NPTH pad of SW68
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(373.3060 mm, 162.5687 mm): NPTH pad of SW19
+    @(373.6010 mm, 162.5437 mm): NPTH pad of SW19
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(378.8060 mm, 168.4687 mm): NPTH pad of SW19
+    @(381.2210 mm, 167.6237 mm): NPTH pad of SW19
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(381.2210 mm, 167.6237 mm): NPTH pad of SW19
+    @(383.8060 mm, 166.3687 mm): NPTH pad of SW19
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(383.7610 mm, 162.5437 mm): NPTH pad of SW19
+    @(384.3060 mm, 162.5687 mm): NPTH pad of SW19
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(297.1060 mm, 117.4687 mm): NPTH pad of SW11
+    @(297.4010 mm, 117.4437 mm): NPTH pad of SW11
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(302.6060 mm, 123.3687 mm): NPTH pad of SW11
+    @(305.0210 mm, 122.5237 mm): NPTH pad of SW11
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(305.0210 mm, 122.5237 mm): NPTH pad of SW11
+    @(307.6060 mm, 121.2687 mm): NPTH pad of SW11
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(307.5610 mm, 117.4437 mm): NPTH pad of SW11
+    @(308.1060 mm, 117.4687 mm): NPTH pad of SW11
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(309.1560 mm, 174.6187 mm): NPTH pad of SW25
+    @(309.4510 mm, 174.5937 mm): NPTH pad of SW25
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(314.6560 mm, 180.5187 mm): NPTH pad of SW25
+    @(317.0710 mm, 179.6737 mm): NPTH pad of SW25
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(317.0710 mm, 179.6737 mm): NPTH pad of SW25
+    @(319.6560 mm, 178.4187 mm): NPTH pad of SW25
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(319.6110 mm, 174.5937 mm): NPTH pad of SW25
+    @(320.1560 mm, 174.6187 mm): NPTH pad of SW25
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(75.2462 mm, 136.5187 mm): NPTH pad of SW52
+    @(75.5412 mm, 136.4937 mm): NPTH pad of SW52
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(80.7462 mm, 142.4187 mm): NPTH pad of SW52
+    @(83.1612 mm, 141.5737 mm): NPTH pad of SW52
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(83.1612 mm, 141.5737 mm): NPTH pad of SW52
+    @(85.7462 mm, 140.3187 mm): NPTH pad of SW52
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(85.7012 mm, 136.4937 mm): NPTH pad of SW52
+    @(86.2462 mm, 136.5187 mm): NPTH pad of SW52
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(171.2197 mm, 208.4301 mm): NPTH pad of SW71
+    @(171.4977 mm, 208.5322 mm): NPTH pad of SW71
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(173.7110 mm, 216.1018 mm): NPTH pad of SW71
+    @(176.2568 mm, 216.3566 mm): NPTH pad of SW71
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(176.2568 mm, 216.3566 mm): NPTH pad of SW71
+    @(179.1300 mm, 216.3116 mm): NPTH pad of SW71
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(180.7058 mm, 212.8260 mm): NPTH pad of SW71
+    @(181.1891 mm, 213.0790 mm): NPTH pad of SW71
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(75.2462 mm, 155.5687 mm): NPTH pad of SW58
+    @(75.5412 mm, 155.5437 mm): NPTH pad of SW58
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(80.7462 mm, 161.4687 mm): NPTH pad of SW58
+    @(83.1612 mm, 160.6237 mm): NPTH pad of SW58
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(83.1612 mm, 160.6237 mm): NPTH pad of SW58
+    @(85.7462 mm, 159.3687 mm): NPTH pad of SW58
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(85.7012 mm, 155.5437 mm): NPTH pad of SW58
+    @(86.2462 mm, 155.5687 mm): NPTH pad of SW58
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(37.1462 mm, 124.4687 mm): NPTH pad of SW44
+    @(37.4412 mm, 124.4437 mm): NPTH pad of SW44
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(42.6462 mm, 130.3687 mm): NPTH pad of SW44
+    @(45.0612 mm, 129.5237 mm): NPTH pad of SW44
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(45.0612 mm, 129.5237 mm): NPTH pad of SW44
+    @(47.6462 mm, 128.2687 mm): NPTH pad of SW44
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(47.6012 mm, 124.4437 mm): NPTH pad of SW44
+    @(48.1462 mm, 124.4687 mm): NPTH pad of SW44
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(278.0560 mm, 136.5187 mm): NPTH pad of SW18
+    @(278.3510 mm, 136.4937 mm): NPTH pad of SW18
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(283.5560 mm, 142.4187 mm): NPTH pad of SW18
+    @(285.9710 mm, 141.5737 mm): NPTH pad of SW18
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(285.9710 mm, 141.5737 mm): NPTH pad of SW18
+    @(288.5560 mm, 140.3186 mm): NPTH pad of SW18
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(288.5110 mm, 136.4937 mm): NPTH pad of SW18
+    @(289.0560 mm, 136.5187 mm): NPTH pad of SW18
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(297.1060 mm, 136.5187 mm): NPTH pad of SW17
+    @(297.4010 mm, 136.4937 mm): NPTH pad of SW17
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(302.6060 mm, 142.4187 mm): NPTH pad of SW17
+    @(305.0210 mm, 141.5737 mm): NPTH pad of SW17
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(305.0210 mm, 141.5737 mm): NPTH pad of SW17
+    @(307.6060 mm, 140.3187 mm): NPTH pad of SW17
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(307.5610 mm, 136.4937 mm): NPTH pad of SW17
+    @(308.1060 mm, 136.5187 mm): NPTH pad of SW17
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(37.1462 mm, 105.4187 mm): NPTH pad of SW38
+    @(37.4412 mm, 105.3937 mm): NPTH pad of SW38
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(42.6462 mm, 111.3187 mm): NPTH pad of SW38
+    @(45.0612 mm, 110.4737 mm): NPTH pad of SW38
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(45.0612 mm, 110.4737 mm): NPTH pad of SW38
+    @(47.6462 mm, 109.2187 mm): NPTH pad of SW38
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(47.6012 mm, 105.3937 mm): NPTH pad of SW38
+    @(48.1462 mm, 105.4187 mm): NPTH pad of SW38
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(316.1560 mm, 132.5187 mm): NPTH pad of SW16
+    @(316.4510 mm, 132.4937 mm): NPTH pad of SW16
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(321.6560 mm, 138.4187 mm): NPTH pad of SW16
+    @(324.0710 mm, 137.5737 mm): NPTH pad of SW16
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(324.0710 mm, 137.5737 mm): NPTH pad of SW16
+    @(326.6560 mm, 136.3187 mm): NPTH pad of SW16
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(326.6110 mm, 132.4937 mm): NPTH pad of SW16
+    @(327.1560 mm, 132.5187 mm): NPTH pad of SW16
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(132.3962 mm, 98.4187 mm): NPTH pad of SW43
+    @(132.6912 mm, 98.3937 mm): NPTH pad of SW43
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(137.8962 mm, 104.3187 mm): NPTH pad of SW43
+    @(140.3112 mm, 103.4737 mm): NPTH pad of SW43
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(140.3112 mm, 103.4737 mm): NPTH pad of SW43
+    @(142.8962 mm, 102.2187 mm): NPTH pad of SW43
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(142.8512 mm, 98.3937 mm): NPTH pad of SW43
+    @(143.3962 mm, 98.4187 mm): NPTH pad of SW43
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(316.1560 mm, 94.4187 mm): NPTH pad of SW4
+    @(316.4510 mm, 94.3937 mm): NPTH pad of SW4
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(321.6560 mm, 100.3187 mm): NPTH pad of SW4
+    @(324.0710 mm, 99.4737 mm): NPTH pad of SW4
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(324.0710 mm, 99.4737 mm): NPTH pad of SW4
+    @(326.6560 mm, 98.2187 mm): NPTH pad of SW4
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(326.6110 mm, 94.3937 mm): NPTH pad of SW4
+    @(327.1560 mm, 94.4187 mm): NPTH pad of SW4
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(315.6560 mm, 193.6687 mm): NPTH pad of SW30
+    @(315.9510 mm, 193.6437 mm): NPTH pad of SW30
+[holes_co_located]: Drilled holes co-located
+    Local override; Severity: warning
+    @(321.0403 mm, 193.6564 mm): NPTH pad of SW30
+    @(321.0403 mm, 193.6564 mm): NPTH pad of J30
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(321.1560 mm, 199.5687 mm): NPTH pad of SW30
+    @(323.5710 mm, 198.7237 mm): NPTH pad of SW30
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(321.1560 mm, 199.5687 mm): NPTH pad of SW30
+    @(321.0403 mm, 198.1564 mm): NPTH pad of J30
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(323.5710 mm, 198.7237 mm): NPTH pad of SW30
+    @(326.1560 mm, 197.4687 mm): NPTH pad of SW30
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(323.5710 mm, 198.7237 mm): NPTH pad of SW30
+    @(321.0403 mm, 198.1564 mm): NPTH pad of J30
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(326.1110 mm, 193.6437 mm): NPTH pad of SW30
+    @(326.6560 mm, 193.6687 mm): NPTH pad of SW30
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(132.3962 mm, 117.4687 mm): NPTH pad of SW49
+    @(132.6912 mm, 117.4437 mm): NPTH pad of SW49
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(137.8962 mm, 123.3687 mm): NPTH pad of SW49
+    @(140.3112 mm, 122.5237 mm): NPTH pad of SW49
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(140.3112 mm, 122.5237 mm): NPTH pad of SW49
+    @(142.8962 mm, 121.2687 mm): NPTH pad of SW49
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(142.8512 mm, 117.4437 mm): NPTH pad of SW49
+    @(143.3962 mm, 117.4687 mm): NPTH pad of SW49
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(132.3962 mm, 155.5687 mm): NPTH pad of SW61
+    @(132.6912 mm, 155.5437 mm): NPTH pad of SW61
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(137.8962 mm, 161.4687 mm): NPTH pad of SW61
+    @(140.3112 mm, 160.6237 mm): NPTH pad of SW61
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(140.3112 mm, 160.6237 mm): NPTH pad of SW61
+    @(142.8962 mm, 159.3687 mm): NPTH pad of SW61
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(142.8512 mm, 155.5437 mm): NPTH pad of SW61
+    @(143.3962 mm, 155.5687 mm): NPTH pad of SW61
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(373.3060 mm, 143.5187 mm): NPTH pad of SW13
+    @(373.6010 mm, 143.4937 mm): NPTH pad of SW13
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(378.8060 mm, 149.4187 mm): NPTH pad of SW13
+    @(381.2210 mm, 148.5737 mm): NPTH pad of SW13
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(381.2210 mm, 148.5737 mm): NPTH pad of SW13
+    @(383.8060 mm, 147.3187 mm): NPTH pad of SW13
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(383.7610 mm, 143.4937 mm): NPTH pad of SW13
+    @(384.3060 mm, 143.5187 mm): NPTH pad of SW13
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(354.2560 mm, 124.4687 mm): NPTH pad of SW8
+    @(354.5510 mm, 124.4437 mm): NPTH pad of SW8
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(359.7560 mm, 130.3687 mm): NPTH pad of SW8
+    @(362.1710 mm, 129.5237 mm): NPTH pad of SW8
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(362.1710 mm, 129.5237 mm): NPTH pad of SW8
+    @(364.7560 mm, 128.2687 mm): NPTH pad of SW8
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(364.7110 mm, 124.4437 mm): NPTH pad of SW8
+    @(365.2560 mm, 124.4687 mm): NPTH pad of SW8
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(142.0907 mm, 175.6677 mm): NPTH pad of SW64
+    @(142.3765 mm, 175.7451 mm): NPTH pad of SW64
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(145.2411 mm, 183.0930 mm): NPTH pad of SW64
+    @(147.7995 mm, 183.1249 mm): NPTH pad of SW64
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(147.7995 mm, 183.1249 mm): NPTH pad of SW64
+    @(150.6578 mm, 182.8297 mm): NPTH pad of SW64
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(151.9237 mm, 179.2200 mm): NPTH pad of SW64
+    @(152.4273 mm, 179.4299 mm): NPTH pad of SW64
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(296.6060 mm, 193.6687 mm): NPTH pad of SW31
+    @(296.9010 mm, 193.6437 mm): NPTH pad of SW31
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(302.1060 mm, 199.5687 mm): NPTH pad of SW31
+    @(304.5210 mm, 198.7237 mm): NPTH pad of SW31
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(304.5210 mm, 198.7237 mm): NPTH pad of SW31
+    @(307.1060 mm, 197.4687 mm): NPTH pad of SW31
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(307.0610 mm, 193.6437 mm): NPTH pad of SW31
+    @(307.6060 mm, 193.6687 mm): NPTH pad of SW31
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(354.2560 mm, 162.5687 mm): NPTH pad of SW20
+    @(354.5510 mm, 162.5437 mm): NPTH pad of SW20
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(359.7560 mm, 168.4687 mm): NPTH pad of SW20
+    @(362.1710 mm, 167.6237 mm): NPTH pad of SW20
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(362.1710 mm, 167.6237 mm): NPTH pad of SW20
+    @(364.7560 mm, 166.3687 mm): NPTH pad of SW20
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(364.7111 mm, 162.5437 mm): NPTH pad of SW20
+    @(365.2561 mm, 162.5687 mm): NPTH pad of SW20
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(101.2962 mm, 174.6351 mm): NPTH pad of SW62
+    @(101.5912 mm, 174.6101 mm): NPTH pad of SW62
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(106.7962 mm, 180.5351 mm): NPTH pad of SW62
+    @(109.2112 mm, 179.6901 mm): NPTH pad of SW62
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(109.2112 mm, 179.6901 mm): NPTH pad of SW62
+    @(111.7962 mm, 178.4351 mm): NPTH pad of SW62
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(111.7512 mm, 174.6101 mm): NPTH pad of SW62
+    @(112.2962 mm, 174.6351 mm): NPTH pad of SW62
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(75.2462 mm, 117.4687 mm): NPTH pad of SW46
+    @(75.5412 mm, 117.4437 mm): NPTH pad of SW46
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(80.7462 mm, 123.3687 mm): NPTH pad of SW46
+    @(83.1612 mm, 122.5237 mm): NPTH pad of SW46
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(83.1612 mm, 122.5237 mm): NPTH pad of SW46
+    @(85.7462 mm, 121.2686 mm): NPTH pad of SW46
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(85.7012 mm, 117.4437 mm): NPTH pad of SW46
+    @(86.2462 mm, 117.4687 mm): NPTH pad of SW46
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(179.2706 mm, 191.1650 mm): NPTH pad of SW66
+    @(179.5486 mm, 191.2670 mm): NPTH pad of SW66
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(181.7619 mm, 198.8366 mm): NPTH pad of SW66
+    @(184.3077 mm, 199.0914 mm): NPTH pad of SW66
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(184.3077 mm, 199.0914 mm): NPTH pad of SW66
+    @(187.1809 mm, 199.0464 mm): NPTH pad of SW66
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(188.7566 mm, 195.5608 mm): NPTH pad of SW66
+    @(189.2400 mm, 195.8138 mm): NPTH pad of SW66
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(335.2060 mm, 155.5687 mm): NPTH pad of SW21
+    @(335.5010 mm, 155.5437 mm): NPTH pad of SW21
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(340.7060 mm, 161.4687 mm): NPTH pad of SW21
+    @(343.1210 mm, 160.6237 mm): NPTH pad of SW21
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(343.1210 mm, 160.6237 mm): NPTH pad of SW21
+    @(345.7060 mm, 159.3686 mm): NPTH pad of SW21
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(345.6610 mm, 155.5437 mm): NPTH pad of SW21
+    @(346.2060 mm, 155.5687 mm): NPTH pad of SW21
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(354.2560 mm, 105.4187 mm): NPTH pad of SW2
+    @(354.5510 mm, 105.3937 mm): NPTH pad of SW2
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(359.7560 mm, 111.3187 mm): NPTH pad of SW2
+    @(362.1710 mm, 110.4737 mm): NPTH pad of SW2
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(362.1710 mm, 110.4737 mm): NPTH pad of SW2
+    @(364.7560 mm, 109.2187 mm): NPTH pad of SW2
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(364.7110 mm, 105.3937 mm): NPTH pad of SW2
+    @(365.2560 mm, 105.4187 mm): NPTH pad of SW2
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(56.1962 mm, 124.4687 mm): NPTH pad of SW45
+    @(56.4912 mm, 124.4437 mm): NPTH pad of SW45
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(61.6962 mm, 130.3687 mm): NPTH pad of SW45
+    @(64.1112 mm, 129.5237 mm): NPTH pad of SW45
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(64.1112 mm, 129.5237 mm): NPTH pad of SW45
+    @(66.6962 mm, 128.2687 mm): NPTH pad of SW45
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(66.6512 mm, 124.4437 mm): NPTH pad of SW45
+    @(67.1962 mm, 124.4687 mm): NPTH pad of SW45
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(316.1560 mm, 113.4687 mm): NPTH pad of SW10
+    @(316.4510 mm, 113.4437 mm): NPTH pad of SW10
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(321.6560 mm, 119.3687 mm): NPTH pad of SW10
+    @(324.0710 mm, 118.5237 mm): NPTH pad of SW10
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(324.0710 mm, 118.5237 mm): NPTH pad of SW10
+    @(326.6560 mm, 117.2686 mm): NPTH pad of SW10
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(326.6110 mm, 113.4437 mm): NPTH pad of SW10
+    @(327.1560 mm, 113.4687 mm): NPTH pad of SW10
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(290.1060 mm, 174.6187 mm): NPTH pad of SW26
+    @(290.4010 mm, 174.5937 mm): NPTH pad of SW26
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(295.6060 mm, 180.5187 mm): NPTH pad of SW26
+    @(298.0210 mm, 179.6737 mm): NPTH pad of SW26
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(298.0210 mm, 179.6737 mm): NPTH pad of SW26
+    @(300.6060 mm, 178.4187 mm): NPTH pad of SW26
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(300.5610 mm, 174.5937 mm): NPTH pad of SW26
+    @(301.1060 mm, 174.6187 mm): NPTH pad of SW26
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(278.0560 mm, 117.4687 mm): NPTH pad of SW12
+    @(278.3510 mm, 117.4437 mm): NPTH pad of SW12
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(283.5560 mm, 123.3687 mm): NPTH pad of SW12
+    @(285.9710 mm, 122.5237 mm): NPTH pad of SW12
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(285.9710 mm, 122.5237 mm): NPTH pad of SW12
+    @(288.5560 mm, 121.2687 mm): NPTH pad of SW12
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(288.5110 mm, 117.4437 mm): NPTH pad of SW12
+    @(289.0560 mm, 117.4687 mm): NPTH pad of SW12
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(278.0560 mm, 155.5687 mm): NPTH pad of SW24
+    @(278.3510 mm, 155.5437 mm): NPTH pad of SW24
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(283.5560 mm, 161.4687 mm): NPTH pad of SW24
+    @(285.9710 mm, 160.6237 mm): NPTH pad of SW24
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(285.9710 mm, 160.6237 mm): NPTH pad of SW24
+    @(288.5560 mm, 159.3687 mm): NPTH pad of SW24
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(288.5110 mm, 155.5437 mm): NPTH pad of SW24
+    @(289.0560 mm, 155.5687 mm): NPTH pad of SW24
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(240.2414 mm, 212.9811 mm): NPTH pad of SW34
+    @(240.4982 mm, 212.8338 mm): NPTH pad of SW34
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(247.7196 mm, 216.0040 mm): NPTH pad of SW34
+    @(249.5512 mm, 214.2175 mm): NPTH pad of SW34
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(249.5512 mm, 214.2175 mm): NPTH pad of SW34
+    @(251.3636 mm, 211.9876 mm): NPTH pad of SW34
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(249.7063 mm, 208.5400 mm): NPTH pad of SW34
+    @(250.2108 mm, 208.3323 mm): NPTH pad of SW34
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(153.9546 mm, 200.3793 mm): NPTH pad of SW70
+    @(154.2325 mm, 200.4813 mm): NPTH pad of SW70
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(156.4458 mm, 208.0509 mm): NPTH pad of SW70
+    @(158.9917 mm, 208.3057 mm): NPTH pad of SW70
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(158.9917 mm, 208.3057 mm): NPTH pad of SW70
+    @(161.8649 mm, 208.2607 mm): NPTH pad of SW70
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(163.4406 mm, 204.7751 mm): NPTH pad of SW70
+    @(163.9240 mm, 205.0281 mm): NPTH pad of SW70
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(373.3060 mm, 105.4187 mm): NPTH pad of SW1
+    @(373.6010 mm, 105.3937 mm): NPTH pad of SW1
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(378.8060 mm, 111.3187 mm): NPTH pad of SW1
+    @(381.2210 mm, 110.4737 mm): NPTH pad of SW1
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(381.2210 mm, 110.4737 mm): NPTH pad of SW1
+    @(383.8060 mm, 109.2187 mm): NPTH pad of SW1
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(383.7610 mm, 105.3937 mm): NPTH pad of SW1
+    @(384.3060 mm, 105.4187 mm): NPTH pad of SW1
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(120.3462 mm, 174.6187 mm): NPTH pad of SW63
+    @(120.6412 mm, 174.5937 mm): NPTH pad of SW63
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(125.8462 mm, 180.5187 mm): NPTH pad of SW63
+    @(128.2612 mm, 179.6737 mm): NPTH pad of SW63
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(128.2612 mm, 179.6737 mm): NPTH pad of SW63
+    @(130.8462 mm, 178.4187 mm): NPTH pad of SW63
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(130.8012 mm, 174.5937 mm): NPTH pad of SW63
+    @(131.3462 mm, 174.6187 mm): NPTH pad of SW63
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(335.2060 mm, 136.5187 mm): NPTH pad of SW15
+    @(335.5010 mm, 136.4937 mm): NPTH pad of SW15
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(340.7060 mm, 142.4187 mm): NPTH pad of SW15
+    @(343.1210 mm, 141.5737 mm): NPTH pad of SW15
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(343.1210 mm, 141.5737 mm): NPTH pad of SW15
+    @(345.7060 mm, 140.3187 mm): NPTH pad of SW15
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(345.6610 mm, 136.4937 mm): NPTH pad of SW15
+    @(346.2060 mm, 136.5187 mm): NPTH pad of SW15
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(257.5066 mm, 204.9303 mm): NPTH pad of SW33
+    @(257.7634 mm, 204.7829 mm): NPTH pad of SW33
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(264.9847 mm, 207.9531 mm): NPTH pad of SW33
+    @(266.8163 mm, 206.1666 mm): NPTH pad of SW33
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(266.8163 mm, 206.1666 mm): NPTH pad of SW33
+    @(268.6288 mm, 203.9367 mm): NPTH pad of SW33
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(266.9715 mm, 200.4891 mm): NPTH pad of SW33
+    @(267.4760 mm, 200.2815 mm): NPTH pad of SW33
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(56.1962 mm, 105.4187 mm): NPTH pad of SW39
+    @(56.4912 mm, 105.3937 mm): NPTH pad of SW39
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(61.6962 mm, 111.3187 mm): NPTH pad of SW39
+    @(64.1112 mm, 110.4737 mm): NPTH pad of SW39
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(64.1112 mm, 110.4737 mm): NPTH pad of SW39
+    @(66.6962 mm, 109.2186 mm): NPTH pad of SW39
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(66.6512 mm, 105.3937 mm): NPTH pad of SW39
+    @(67.1962 mm, 105.4187 mm): NPTH pad of SW39
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(297.1060 mm, 155.5687 mm): NPTH pad of SW23
+    @(297.4010 mm, 155.5437 mm): NPTH pad of SW23
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(302.6060 mm, 161.4687 mm): NPTH pad of SW23
+    @(305.0210 mm, 160.6237 mm): NPTH pad of SW23
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(305.0210 mm, 160.6237 mm): NPTH pad of SW23
+    @(307.6060 mm, 159.3687 mm): NPTH pad of SW23
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(307.5610 mm, 155.5437 mm): NPTH pad of SW23
+    @(308.1060 mm, 155.5687 mm): NPTH pad of SW23
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(113.3462 mm, 155.5687 mm): NPTH pad of SW60
+    @(113.6412 mm, 155.5437 mm): NPTH pad of SW60
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(118.8462 mm, 161.4687 mm): NPTH pad of SW60
+    @(121.2612 mm, 160.6237 mm): NPTH pad of SW60
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(121.2612 mm, 160.6237 mm): NPTH pad of SW60
+    @(123.8462 mm, 159.3687 mm): NPTH pad of SW60
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(123.8012 mm, 155.5437 mm): NPTH pad of SW60
+    @(124.3462 mm, 155.5687 mm): NPTH pad of SW60
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(278.0560 mm, 98.4187 mm): NPTH pad of SW6
+    @(278.3510 mm, 98.3937 mm): NPTH pad of SW6
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(283.5560 mm, 104.3187 mm): NPTH pad of SW6
+    @(285.9710 mm, 103.4737 mm): NPTH pad of SW6
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(285.9710 mm, 103.4737 mm): NPTH pad of SW6
+    @(288.5560 mm, 102.2187 mm): NPTH pad of SW6
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(288.5110 mm, 98.3937 mm): NPTH pad of SW6
+    @(289.0560 mm, 98.4187 mm): NPTH pad of SW6
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(75.2462 mm, 98.4187 mm): NPTH pad of SW40
+    @(75.5412 mm, 98.3937 mm): NPTH pad of SW40
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(80.7462 mm, 104.3187 mm): NPTH pad of SW40
+    @(83.1612 mm, 103.4737 mm): NPTH pad of SW40
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(83.1612 mm, 103.4737 mm): NPTH pad of SW40
+    @(85.7462 mm, 102.2187 mm): NPTH pad of SW40
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(85.7012 mm, 98.3937 mm): NPTH pad of SW40
+    @(86.2462 mm, 98.4187 mm): NPTH pad of SW40
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(113.3462 mm, 98.4187 mm): NPTH pad of SW42
+    @(113.6412 mm, 98.3937 mm): NPTH pad of SW42
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(118.8462 mm, 104.3187 mm): NPTH pad of SW42
+    @(121.2612 mm, 103.4737 mm): NPTH pad of SW42
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(121.2612 mm, 103.4737 mm): NPTH pad of SW42
+    @(123.8462 mm, 102.2187 mm): NPTH pad of SW42
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(123.8012 mm, 98.3937 mm): NPTH pad of SW42
+    @(124.3462 mm, 98.4187 mm): NPTH pad of SW42
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(94.7962 mm, 193.6687 mm): NPTH pad of SW67
+    @(95.0912 mm, 193.6437 mm): NPTH pad of SW67
+[holes_co_located]: Drilled holes co-located
+    Local override; Severity: warning
+    @(100.1805 mm, 193.6564 mm): NPTH pad of SW67
+    @(100.1805 mm, 193.6564 mm): NPTH pad of J28
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(100.2962 mm, 199.5687 mm): NPTH pad of SW67
+    @(100.1805 mm, 198.1564 mm): NPTH pad of J28
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(100.2962 mm, 199.5687 mm): NPTH pad of SW67
+    @(102.7112 mm, 198.7237 mm): NPTH pad of SW67
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(102.7112 mm, 198.7237 mm): NPTH pad of SW67
+    @(100.1805 mm, 198.1564 mm): NPTH pad of J28
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(102.7112 mm, 198.7237 mm): NPTH pad of SW67
+    @(105.2962 mm, 197.4687 mm): NPTH pad of SW67
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(105.2512 mm, 193.6437 mm): NPTH pad of SW67
+    @(105.7962 mm, 193.6687 mm): NPTH pad of SW67
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(275.5264 mm, 197.2519 mm): NPTH pad of SW32
+    @(275.7951 mm, 197.1275 mm): NPTH pad of SW32
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(282.7127 mm, 200.9150 mm): NPTH pad of SW32
+    @(284.6930 mm, 199.2950 mm): NPTH pad of SW32
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(284.6930 mm, 199.2950 mm): NPTH pad of SW32
+    @(286.6929 mm, 197.2315 mm): NPTH pad of SW32
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(285.3424 mm, 193.6526 mm): NPTH pad of SW32
+    @(285.8631 mm, 193.4897 mm): NPTH pad of SW32
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(94.2962 mm, 151.5687 mm): NPTH pad of SW59
+    @(94.5912 mm, 151.5437 mm): NPTH pad of SW59
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(99.7962 mm, 157.4687 mm): NPTH pad of SW59
+    @(102.2112 mm, 156.6237 mm): NPTH pad of SW59
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(102.2112 mm, 156.6237 mm): NPTH pad of SW59
+    @(104.7962 mm, 155.3687 mm): NPTH pad of SW59
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(104.7512 mm, 151.5437 mm): NPTH pad of SW59
+    @(105.2962 mm, 151.5687 mm): NPTH pad of SW59
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(56.1962 mm, 143.5186 mm): NPTH pad of SW51
+    @(56.4912 mm, 143.4936 mm): NPTH pad of SW51
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(61.6962 mm, 149.4186 mm): NPTH pad of SW51
+    @(64.1112 mm, 148.5736 mm): NPTH pad of SW51
+[hole_near_hole]: Drilled holes too close together (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; Severity: error
+    @(64.1112 mm, 148.5736 mm): NPTH pad of SW51
+    @(66.6962 mm, 147.3186 mm): NPTH pad of SW51
+[drill_out_of_range]: Drill out of range (board setup constraints min width 0.3000 mm; actual 0.1500 mm)
+    Rule: board setup constraints; Severity: error
+    @(224.6093 mm, 108.6061 mm): PTH pad 1 [/Left2040/LCD_BL_BARE] of JP5
+[drill_out_of_range]: Drill out of range (board setup constraints min width 0.3000 mm; actual 0.1500 mm)
+    Rule: board setup constraints; Severity: error
+    @(223.2693 mm, 108.6261 mm): PTH pad 2 [/Left2040/LCD_BL_DIRECT] of JP5
+[drill_out_of_range]: Drill out of range (board setup constraints min width 0.3000 mm; actual 0.1500 mm)
+    Rule: board setup constraints; Severity: error
+    @(199.0796 mm, 84.2712 mm): PTH pad 1 [LCD_BL_BARE] of JP4
+[drill_out_of_range]: Drill out of range (board setup constraints min width 0.3000 mm; actual 0.1500 mm)
+    Rule: board setup constraints; Severity: error
+    @(200.4196 mm, 84.2512 mm): PTH pad 2 [/Right2040/LCD_BL_DIRECT] of JP4
+[drill_out_of_range]: Drill out of range (netclass 'BGA' min width 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(57.7105 mm, 85.1143 mm): Via [/Right2040/GPIO] on F.Cu - B.Cu
+[drill_out_of_range]: Drill out of range (netclass 'BGA' min width 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(56.9005 mm, 83.7977 mm): Via [/Right2040/ADDR1] on F.Cu - B.Cu
+[drill_out_of_range]: Drill out of range (netclass 'BGA' min width 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(64.0517 mm, 77.9501 mm): Via [/Right2040/ADDR1] on F.Cu - B.Cu
+[drill_out_of_range]: Drill out of range (netclass 'BGA' min width 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(55.2393 mm, 83.7128 mm): Via [/Right2040/ADDR0] on F.Cu - B.Cu
+[drill_out_of_range]: Drill out of range (netclass 'BGA' min width 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(57.4930 mm, 84.0968 mm): Via [/Right2040/Power_PDO3] on F.Cu - B.Cu
+[drill_out_of_range]: Drill out of range (netclass 'BGA' min width 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(60.3390 mm, 87.5593 mm): Via [/Right2040/Power_PDO3] on F.Cu - B.Cu
+[drill_out_of_range]: Drill out of range (netclass 'BGA' min width 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(55.9672 mm, 83.4059 mm): Via [/Right2040/ATTACH] on F.Cu - B.Cu
+[drill_out_of_range]: Drill out of range (netclass 'BGA' min width 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(57.4517 mm, 86.9501 mm): Via [/Right2040/ALERT] on F.Cu - B.Cu
+[drill_out_of_range]: Drill out of range (netclass 'BGA' min width 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(258.3505 mm, 91.7807 mm): Via [/Left2040/SDA] on F.Cu - B.Cu
+[drill_out_of_range]: Drill out of range (netclass 'BGA' min width 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(366.4205 mm, 87.3043 mm): Via [/Left2040/SDA] on F.Cu - B.Cu
+[drill_out_of_range]: Drill out of range (netclass 'BGA' min width 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(259.6005 mm, 91.7107 mm): Via [/Left2040/SCL] on F.Cu - B.Cu
+[drill_out_of_range]: Drill out of range (netclass 'BGA' min width 0.3000 mm; actual 0.2000 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(366.2071 mm, 85.0143 mm): Via [/Left2040/SCL] on F.Cu - B.Cu
+[lib_footprint_mismatch]: Footprint 'GC9A01Round1.28-bare screen' does not match copy in library 'prettylib'.
+    Local override; Severity: warning
+    @(176.9093 mm, 96.9073 mm): Footprint J18
+[lib_footprint_mismatch]: Footprint 'GC9A01Round1.28-bare screen' does not match copy in library 'prettylib'.
+    Local override; Severity: warning
+    @(244.3115 mm, 96.9073 mm): Footprint J7
+[lib_footprint_mismatch]: Footprint 'SO16' does not match copy in library 'prettylib'.
+    Local override; Severity: warning
+    @(372.2895 mm, 90.6747 mm): Footprint U40
+[lib_footprint_mismatch]: Footprint 'SO16' does not match copy in library 'prettylib'.
+    Local override; Severity: warning
+    @(43.6386 mm, 90.7001 mm): Footprint U29
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
+    Local override; Severity: warning
+    @(70.5517 mm, 91.4661 mm): Footprint D82
+[lib_footprint_mismatch]: Footprint 'HRO-TYPE-C-31-M-12-mod' does not match copy in library 'prettylib'.
+    Local override; Severity: warning
+    @(341.0905 mm, 71.0341 mm): Footprint J39
+[lib_footprint_mismatch]: Footprint 'SOD-323' does not match copy in library 'prettylib'.
+    Local override; Severity: warning
+    @(366.1905 mm, 80.5077 mm): Footprint D3
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
+    Local override; Severity: warning
+    @(70.5517 mm, 94.7161 mm): Footprint D84
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
+    Local override; Severity: warning
+    @(70.5517 mm, 93.1001 mm): Footprint D83
+[lib_footprint_mismatch]: Footprint 'SOP-16_3.9x9.9mm_P1.27mm' does not match copy in library 'Package_SO'.
+    Local override; Severity: warning
+    @(109.4017 mm, 76.6501 mm): Footprint U32
+[lib_footprint_mismatch]: Footprint 'SOP-16_3.9x9.9mm_P1.27mm' does not match copy in library 'Package_SO'.
+    Local override; Severity: warning
+    @(311.7484 mm, 76.6788 mm): Footprint U38
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; Severity: warning
+    @(199.6808 mm, 83.4059 mm): PCB Text 'BL*' on B.Silkscreen
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; Severity: warning
+    @(50.9617 mm, 88.2901 mm): PCB Text 'PD Bypass' on F.Silkscreen
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; Severity: warning
+    @(200.0808 mm, 83.4059 mm): PCB Text 'BL*' on F.Silkscreen
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; Severity: warning
+    @(199.3705 mm, 101.1264 mm): PCB Text 'SCLK' on F.Silkscreen
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; Severity: warning
+    @(373.6334 mm, 82.0385 mm): PCB Text 'PD Bypass' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; Severity: warning
+    @(158.9858 mm, 120.9809 mm): Footprint Text '~{RST}' of J13
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; Severity: warning
+    @(152.3453 mm, 123.5209 mm): Footprint Text 'SWDIO' of J13
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; Severity: warning
+    @(158.9493 mm, 118.4409 mm): Footprint Text 'GND' of J13
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; Severity: warning
+    @(158.9493 mm, 123.5209 mm): Footprint Text '+5V' of J13
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; Severity: warning
+    @(152.3453 mm, 118.4409 mm): Footprint Text '+3V3' of J13
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; Severity: warning
+    @(152.3453 mm, 120.9809 mm): Footprint Text 'SWCLK' of J13
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; Severity: warning
+    @(152.3453 mm, 120.9809 mm): Footprint Text 'SWCLK' of J13
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; Severity: warning
+    @(213.9384 mm, 117.1363 mm): Footprint Text 'VCC' of J2
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; Severity: warning
+    @(220.5424 mm, 122.2163 mm): Footprint Text '+3V3' of J2
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; Severity: warning
+    @(220.5424 mm, 119.6763 mm): Footprint Text 'SWCLK' of J2
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; Severity: warning
+    @(220.5424 mm, 119.6763 mm): Footprint Text 'SWCLK' of J2
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; Severity: warning
+    @(213.9019 mm, 119.6763 mm): Footprint Text '~{RST}' of J2
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; Severity: warning
+    @(213.9384 mm, 122.2163 mm): Footprint Text 'GND' of J2
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; Severity: warning
+    @(220.5424 mm, 117.1363 mm): Footprint Text 'SWDIO' of J2
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; Severity: warning
+    @(83.6305 mm, 170.4064 mm): Reference 'SW72'
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; Severity: warning
+    @(337.5903 mm, 170.4063 mm): Reference 'SW35'
+[via_diameter]: Via diameter (netclass 'BGA' min diameter 0.5000 mm; actual 0.4500 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(57.7105 mm, 85.1143 mm): Via [/Right2040/GPIO] on F.Cu - B.Cu
+[via_diameter]: Via diameter (netclass 'BGA' min diameter 0.5000 mm; actual 0.4500 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(56.9005 mm, 83.7977 mm): Via [/Right2040/ADDR1] on F.Cu - B.Cu
+[via_diameter]: Via diameter (netclass 'BGA' min diameter 0.5000 mm; actual 0.4500 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(64.0517 mm, 77.9501 mm): Via [/Right2040/ADDR1] on F.Cu - B.Cu
+[via_diameter]: Via diameter (netclass 'BGA' min diameter 0.5000 mm; actual 0.4500 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(55.2393 mm, 83.7128 mm): Via [/Right2040/ADDR0] on F.Cu - B.Cu
+[via_diameter]: Via diameter (netclass 'BGA' min diameter 0.5000 mm; actual 0.4500 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(57.4930 mm, 84.0968 mm): Via [/Right2040/Power_PDO3] on F.Cu - B.Cu
+[via_diameter]: Via diameter (netclass 'BGA' min diameter 0.5000 mm; actual 0.4500 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(60.3390 mm, 87.5593 mm): Via [/Right2040/Power_PDO3] on F.Cu - B.Cu
+[via_diameter]: Via diameter (netclass 'BGA' min diameter 0.5000 mm; actual 0.4500 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(55.9672 mm, 83.4059 mm): Via [/Right2040/ATTACH] on F.Cu - B.Cu
+[via_diameter]: Via diameter (netclass 'BGA' min diameter 0.5000 mm; actual 0.4500 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(57.4517 mm, 86.9501 mm): Via [/Right2040/ALERT] on F.Cu - B.Cu
+[via_diameter]: Via diameter (netclass 'BGA' min diameter 0.5000 mm; actual 0.4500 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(258.3505 mm, 91.7807 mm): Via [/Left2040/SDA] on F.Cu - B.Cu
+[via_diameter]: Via diameter (netclass 'BGA' min diameter 0.5000 mm; actual 0.4500 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(366.4205 mm, 87.3043 mm): Via [/Left2040/SDA] on F.Cu - B.Cu
+[via_diameter]: Via diameter (netclass 'BGA' min diameter 0.5000 mm; actual 0.4500 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(259.6005 mm, 91.7107 mm): Via [/Left2040/SCL] on F.Cu - B.Cu
+[via_diameter]: Via diameter (netclass 'BGA' min diameter 0.5000 mm; actual 0.4500 mm)
+    Rule: netclass 'BGA'; Severity: error
+    @(366.2071 mm, 85.0143 mm): Via [/Left2040/SCL] on F.Cu - B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(220.2952 mm, 131.1886 mm): Track [GND2] on F.Cu, length 1.0726 mm
+    @(220.4952 mm, 131.1886 mm): Pad [<no net>] of J37 on F.Paste and others
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(175.0621 mm, 178.1679 mm): Track [GND] on F.Cu, length 1.0634 mm
+    @(175.0621 mm, 177.9679 mm): Pad [<no net>] of J33 on F.Paste and others
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(243.7589 mm, 178.1679 mm): Track [+3V3_L] on F.Cu, length 3.8157 mm
+    @(243.7589 mm, 177.9679 mm): Pad [<no net>] of J31 on F.Paste and others
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(220.2952 mm, 134.7886 mm): Track [+5V_L] on F.Cu, length 1.6145 mm
+    @(220.4952 mm, 134.7886 mm): Pad [<no net>] of J37 on F.Paste and others
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(218.8843 mm, 134.8903 mm): Track [+5V_L] on F.Cu, length 1.3091 mm
+    @(220.4952 mm, 134.7886 mm): Pad [<no net>] of J37 on F.Paste and others
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(220.1934 mm, 134.8903 mm): Track [+5V_L] on F.Cu, length 0.1438 mm
+    @(220.4952 mm, 134.7886 mm): Pad [<no net>] of J37 on F.Paste and others
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(176.2621 mm, 178.1679 mm): Via [+3V3] on F.Cu - B.Cu
+    @(176.2621 mm, 177.9679 mm): Pad [<no net>] of J33 on F.Paste and others
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(200.5517 mm, 131.2501 mm): Track [+5V] on F.Cu, length 1.0435 mm
+    @(200.3517 mm, 131.2501 mm): Pad [<no net>] of J32 on F.Paste and others
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(200.2147 mm, 132.7871 mm): Track [/Right2040/D4-] on F.Cu, length 8.2304 mm
+    @(200.3517 mm, 132.4501 mm): Pad [<no net>] of J32 on F.Paste and others
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(200.5517 mm, 132.4501 mm): Track [/Right2040/D4-] on F.Cu, length 0.4766 mm
+    @(200.3517 mm, 132.4501 mm): Pad [<no net>] of J32 on F.Paste and others
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(200.5517 mm, 133.6501 mm): Track [/Right2040/D4+] on F.Cu, length 0.4766 mm
+    @(200.3517 mm, 133.6501 mm): Pad [<no net>] of J32 on F.Paste and others
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(200.2147 mm, 133.3131 mm): Track [/Right2040/D4+] on F.Cu, length 8.2304 mm
+    @(200.3517 mm, 133.6501 mm): Pad [<no net>] of J32 on F.Paste and others
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(177.4621 mm, 177.0493 mm): Track [/Right2040/k57] on F.Cu, length 1.1186 mm
+    @(177.4621 mm, 177.9679 mm): Pad [<no net>] of J33 on F.Paste and others
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(178.6621 mm, 176.9893 mm): Track [/Right2040/k56] on F.Cu, length 1.1786 mm
+    @(178.6621 mm, 177.9679 mm): Pad [<no net>] of J33 on F.Paste and others
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(244.9589 mm, 179.4461 mm): Track [/Left2040/k57] on F.Cu, length 1.2782 mm
+    @(244.9589 mm, 177.9679 mm): Pad [<no net>] of J31 on F.Paste and others
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(254.1091 mm, 170.2177 mm): Track [/Left2040/k56] on F.Cu, length 11.2433 mm
+    @(246.1589 mm, 177.9679 mm): Pad [<no net>] of J31 on F.Paste and others
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(220.2952 mm, 133.5886 mm): Track [/Left2040/D4-] on F.Cu, length 0.4766 mm
+    @(220.4952 mm, 133.5886 mm): Pad [<no net>] of J37 on F.Paste and others
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(220.6322 mm, 133.2516 mm): Track [/Left2040/D4-] on F.Cu, length 13.5621 mm
+    @(220.4952 mm, 133.5886 mm): Pad [<no net>] of J37 on F.Paste and others
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(220.2952 mm, 132.3886 mm): Track [/Left2040/D4+] on F.Cu, length 0.4766 mm
+    @(220.4952 mm, 132.3886 mm): Pad [<no net>] of J37 on F.Paste and others
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(220.6322 mm, 132.7256 mm): Track [/Left2040/D4+] on F.Cu, length 13.5621 mm
+    @(220.4952 mm, 132.3886 mm): Pad [<no net>] of J37 on F.Paste and others
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(315.6560 mm, 193.6687 mm): NPTH pad of SW30
+    @(314.6653 mm, 193.9564 mm): Pad MP2 [GND2] of J30 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(315.9510 mm, 193.6437 mm): NPTH pad of SW30
+    @(314.6653 mm, 193.9564 mm): Pad MP2 [GND2] of J30 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(317.2210 mm, 196.1837 mm): NPTH pad of SW30
+    @(314.6653 mm, 193.9564 mm): Pad MP2 [GND2] of J30 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(321.1560 mm, 199.5687 mm): NPTH pad of SW30
+    @(321.0403 mm, 200.9564 mm): Pad C1 [GND2] of J30 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(323.5710 mm, 198.7237 mm): NPTH pad of SW30
+    @(323.5403 mm, 200.9564 mm): Pad A1 [/Left2040/ENCA1] of J30 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(326.1110 mm, 193.6437 mm): NPTH pad of SW30
+    @(327.4153 mm, 193.9564 mm): Pad MP1 [GND2] of J30 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(326.1560 mm, 197.4687 mm): NPTH pad of SW30
+    @(327.4153 mm, 193.9564 mm): Pad MP1 [GND2] of J30 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(326.6560 mm, 193.6687 mm): NPTH pad of SW30
+    @(327.4153 mm, 193.9564 mm): Pad MP1 [GND2] of J30 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(94.7962 mm, 193.6687 mm): NPTH pad of SW67
+    @(93.8055 mm, 193.9563 mm): Pad MP2 [GND] of J28 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(95.0912 mm, 193.6437 mm): NPTH pad of SW67
+    @(93.8055 mm, 193.9563 mm): Pad MP2 [GND] of J28 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(96.3612 mm, 196.1837 mm): NPTH pad of SW67
+    @(93.8055 mm, 193.9563 mm): Pad MP2 [GND] of J28 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(100.2962 mm, 199.5687 mm): NPTH pad of SW67
+    @(100.1805 mm, 200.9563 mm): Pad C1 [GND] of J28 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(102.7112 mm, 198.7237 mm): NPTH pad of SW67
+    @(102.6805 mm, 200.9563 mm): Pad A1 [/Right2040/ENCA1] of J28 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(105.2512 mm, 193.6437 mm): NPTH pad of SW67
+    @(106.5555 mm, 193.9563 mm): Pad MP1 [GND] of J28 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(105.2962 mm, 197.4687 mm): NPTH pad of SW67
+    @(106.5555 mm, 193.9563 mm): Pad MP1 [GND] of J28 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(105.7962 mm, 193.6687 mm): NPTH pad of SW67
+    @(106.5555 mm, 193.9563 mm): Pad MP1 [GND] of J28 on B.Cu
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(168.4368 mm, 112.0787 mm): Line on F.Silkscreen
+    @(176.9093 mm, 96.9073 mm): Circle on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(126.4922 mm, 137.8727 mm): Line on F.Silkscreen
+    @(123.4462 mm, 138.4687 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(126.4922 mm, 138.8147 mm): Line on F.Silkscreen
+    @(135.7962 mm, 138.4687 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(135.7962 mm, 138.4687 mm): Line on F.Silkscreen
+    @(137.3712 mm, 137.0937 mm): Arc on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(137.3712 mm, 137.0937 mm): Arc on F.Silkscreen
+    @(135.7962 mm, 138.4687 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(116.4302 mm, 124.8777 mm): Line on F.Silkscreen
+    @(116.4462 mm, 133.5687 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(117.3672 mm, 121.0227 mm): Line on F.Silkscreen
+    @(116.4462 mm, 133.5687 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(176.9093 mm, 96.9073 mm): Circle on F.Silkscreen
+    @(160.9901 mm, 102.1535 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(176.9093 mm, 96.9073 mm): Circle on F.Silkscreen
+    @(159.5144 mm, 89.0173 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(176.9093 mm, 96.9073 mm): Circle on F.Silkscreen
+    @(161.0644 mm, 90.8173 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(176.9093 mm, 96.9073 mm): Circle on F.Silkscreen
+    @(162.2655 mm, 107.7172 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(176.9093 mm, 96.9073 mm): Circle on F.Silkscreen
+    @(160.6608 mm, 87.8373 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(176.9093 mm, 96.9073 mm): Circle on F.Silkscreen
+    @(160.6608 mm, 88.5973 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(176.9093 mm, 96.9073 mm): Circle on F.Silkscreen
+    @(160.9901 mm, 102.1535 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(176.9093 mm, 96.9073 mm): Circle on F.Silkscreen
+    @(161.0644 mm, 90.8173 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(176.9093 mm, 96.9073 mm): Circle on F.Silkscreen
+    @(160.5205 mm, 103.1645 mm): Circle on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(135.4802 mm, 124.8777 mm): Line on F.Silkscreen
+    @(135.7962 mm, 138.4687 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(143.0712 mm, 124.4437 mm): Line on F.Silkscreen
+    @(135.7962 mm, 138.4687 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(133.8805 mm, 133.3564 mm): Line on F.Silkscreen
+    @(135.7962 mm, 138.4687 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(141.6805 mm, 129.6564 mm): Line on F.Silkscreen
+    @(135.7962 mm, 138.4687 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(136.4172 mm, 121.0227 mm): Line on F.Silkscreen
+    @(135.7962 mm, 138.4687 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(137.3712 mm, 118.0437 mm): Arc on F.Silkscreen
+    @(135.7962 mm, 138.4687 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(134.1383 mm, 115.5164 mm): Line on F.Silkscreen
+    @(123.4462 mm, 115.4687 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(126.4922 mm, 118.8227 mm): Line on F.Silkscreen
+    @(123.4462 mm, 120.3687 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(50.9617 mm, 88.2901 mm): PCB Text 'PD Bypass' on F.Silkscreen
+    @(49.2266 mm, 88.2871 mm): Circle on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(98.6805 mm, 86.5064 mm): PCB Text 'TOUCH SENSOR' on F.Silkscreen
+    @(102.3726 mm, 86.6743 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(121.3932 mm, 120.1657 mm): Line on F.Silkscreen
+    @(116.4462 mm, 120.3687 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(114.8305 mm, 133.3564 mm): Line on F.Silkscreen
+    @(116.4462 mm, 133.5687 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(122.6305 mm, 129.6564 mm): Line on F.Silkscreen
+    @(116.4462 mm, 133.5687 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(234.3439 mm, 85.1263 mm): Reference 'R12'
+    @(234.5839 mm, 85.8051 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(249.4705 mm, 78.3757 mm): Line on F.Silkscreen
+    @(244.3115 mm, 96.9073 mm): Circle on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(247.6505 mm, 78.3757 mm): Line on F.Silkscreen
+    @(244.3115 mm, 96.9073 mm): Circle on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(247.6505 mm, 78.3757 mm): Line on F.Silkscreen
+    @(244.3115 mm, 96.9073 mm): Circle on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(244.3115 mm, 96.9073 mm): Circle on F.Silkscreen
+    @(236.0705 mm, 112.7545 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(244.3115 mm, 96.9073 mm): Circle on F.Silkscreen
+    @(237.1655 mm, 113.8581 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(244.3115 mm, 96.9073 mm): Circle on F.Silkscreen
+    @(236.0705 mm, 112.7545 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(244.3115 mm, 96.9073 mm): Circle on F.Silkscreen
+    @(236.4055 mm, 113.8581 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(304.8150 mm, 120.6187 mm): Line on F.Silkscreen
+    @(304.7560 mm, 120.3687 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(305.1530 mm, 120.1657 mm): Line on F.Silkscreen
+    @(304.7560 mm, 120.3687 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(285.4060 mm, 115.4687 mm): Line on F.Silkscreen
+    @(285.2270 mm, 125.7347 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(285.4060 mm, 115.4687 mm): Line on F.Silkscreen
+    @(288.7310 mm, 124.4437 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(285.4060 mm, 115.4687 mm): Line on F.Silkscreen
+    @(287.3403 mm, 129.6564 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(285.4060 mm, 115.4687 mm): Line on F.Silkscreen
+    @(279.5403 mm, 133.3564 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(285.4060 mm, 115.4687 mm): Line on F.Silkscreen
+    @(283.0310 mm, 120.0437 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(285.4060 mm, 115.4687 mm): Line on F.Silkscreen
+    @(285.7650 mm, 120.6187 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(304.6190 mm, 125.5057 mm): Line on F.Silkscreen
+    @(304.7560 mm, 120.3687 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(307.7810 mm, 124.4437 mm): Line on F.Silkscreen
+    @(304.7560 mm, 120.3687 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(286.3390 mm, 138.3597 mm): Line on F.Silkscreen
+    @(297.7560 mm, 138.4687 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(286.5320 mm, 138.1017 mm): Line on F.Silkscreen
+    @(297.7560 mm, 138.4687 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(291.2020 mm, 138.8147 mm): Line on F.Silkscreen
+    @(297.7560 mm, 138.4687 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(286.1030 mm, 120.1657 mm): Line on F.Silkscreen
+    @(304.7560 mm, 120.3687 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(306.3903 mm, 129.6564 mm): Line on F.Silkscreen
+    @(304.7560 mm, 120.3687 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(298.5903 mm, 133.3564 mm): Line on F.Silkscreen
+    @(304.7560 mm, 120.3687 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(44.8905 mm, 82.6243 mm): Reference 'R91'
+    @(45.0641 mm, 82.1143 mm): Line on B.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(44.8905 mm, 82.6243 mm): Reference 'R91'
+    @(45.0641 mm, 82.8743 mm): Line on B.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(188.1805 mm, 161.3853 mm): Footprint Text '**' of J19
+    @(189.1805 mm, 160.7344 mm): Line on B.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(376.2605 mm, 83.1914 mm): Line on B.Silkscreen
+    @(376.5105 mm, 83.0377 mm): Reference 'R112'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(244.2747 mm, 143.9879 mm): Circle on B.Silkscreen
+    @(232.1889 mm, 158.3513 mm): Line on B.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(244.2747 mm, 143.9879 mm): Circle on B.Silkscreen
+    @(234.1889 mm, 158.3513 mm): Line on B.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(187.1805 mm, 158.7344 mm): Line on B.Silkscreen
+    @(176.9530 mm, 143.9879 mm): Circle on B.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(187.1805 mm, 160.7344 mm): Line on B.Silkscreen
+    @(176.9530 mm, 143.9879 mm): Circle on B.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(189.1805 mm, 158.7344 mm): Line on B.Silkscreen
+    @(176.9014 mm, 143.9848 mm): Circle on B.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(189.1805 mm, 160.7344 mm): Line on B.Silkscreen
+    @(176.9014 mm, 143.9848 mm): Circle on B.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(233.1889 mm, 161.0023 mm): Footprint Text '**' of J8
+    @(244.3036 mm, 143.9848 mm): Circle on B.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(233.1889 mm, 161.0023 mm): Footprint Text '**' of J8
+    @(234.1889 mm, 160.3513 mm): Line on B.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(244.3036 mm, 143.9848 mm): Circle on B.Silkscreen
+    @(232.1889 mm, 160.3513 mm): Line on B.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(244.3036 mm, 143.9848 mm): Circle on B.Silkscreen
+    @(234.1889 mm, 160.3513 mm): Line on B.Silkscreen
+[copper_sliver]: Copper sliver (F.Cu)
+    Local override; Severity: warning
+[copper_sliver]: Copper sliver (F.Cu)
+    Local override; Severity: warning
+[copper_sliver]: Copper sliver (F.Cu)
+    Local override; Severity: warning
+[copper_sliver]: Copper sliver (F.Cu)
+    Local override; Severity: warning
+
+** Found 0 unconnected pads **
+
+** Found 41 Footprint errors **
+[net_conflict]: No pad found for pin 7 in schematic.
+    Local override; Severity: warning
+    @(217.1769 mm, 119.6763 mm): Footprint J2
+[net_conflict]: No pad found for pin A12 in schematic.
+    Local override; Severity: warning
+    @(379.0905 mm, 71.0341 mm): Footprint J3
+[net_conflict]: No pad found for pin B12 in schematic.
+    Local override; Severity: warning
+    @(379.0905 mm, 71.0341 mm): Footprint J3
+[net_conflict]: No pad found for pin A9 in schematic.
+    Local override; Severity: warning
+    @(379.0905 mm, 71.0341 mm): Footprint J3
+[net_conflict]: No pad found for pin B9 in schematic.
+    Local override; Severity: warning
+    @(379.0905 mm, 71.0341 mm): Footprint J3
+[net_conflict]: No pad found for pin 0 in schematic.
+    Local override; Severity: warning
+    @(227.4220 mm, 76.9308 mm): Footprint J5
+[net_conflict]: No pad found for pin MP in schematic.
+    Local override; Severity: warning
+    @(244.3589 mm, 175.9679 mm): Footprint J31
+[net_conflict]: No pad found for pin A12 in schematic.
+    Local override; Severity: warning
+    @(241.0905 mm, 71.0341 mm): Footprint J36
+[net_conflict]: No pad found for pin B12 in schematic.
+    Local override; Severity: warning
+    @(241.0905 mm, 71.0341 mm): Footprint J36
+[net_conflict]: No pad found for pin A9 in schematic.
+    Local override; Severity: warning
+    @(241.0905 mm, 71.0341 mm): Footprint J36
+[net_conflict]: No pad found for pin B9 in schematic.
+    Local override; Severity: warning
+    @(241.0905 mm, 71.0341 mm): Footprint J36
+[net_conflict]: No pad found for pin MP in schematic.
+    Local override; Severity: warning
+    @(222.4952 mm, 132.9886 mm): Footprint J37
+[net_conflict]: No pad found for pin A12 in schematic.
+    Local override; Severity: warning
+    @(279.0905 mm, 71.0341 mm): Footprint J38
+[net_conflict]: No pad found for pin B12 in schematic.
+    Local override; Severity: warning
+    @(279.0905 mm, 71.0341 mm): Footprint J38
+[net_conflict]: No pad found for pin A9 in schematic.
+    Local override; Severity: warning
+    @(279.0905 mm, 71.0341 mm): Footprint J38
+[net_conflict]: No pad found for pin B9 in schematic.
+    Local override; Severity: warning
+    @(279.0905 mm, 71.0341 mm): Footprint J38
+[net_conflict]: No pad found for pin A12 in schematic.
+    Local override; Severity: warning
+    @(341.0905 mm, 71.0341 mm): Footprint J39
+[net_conflict]: No pad found for pin B12 in schematic.
+    Local override; Severity: warning
+    @(341.0905 mm, 71.0341 mm): Footprint J39
+[net_conflict]: No pad found for pin A9 in schematic.
+    Local override; Severity: warning
+    @(341.0905 mm, 71.0341 mm): Footprint J39
+[net_conflict]: No pad found for pin B9 in schematic.
+    Local override; Severity: warning
+    @(341.0905 mm, 71.0341 mm): Footprint J39
+[net_conflict]: No pad found for pin A12 in schematic.
+    Local override; Severity: warning
+    @(180.1305 mm, 71.0341 mm): Footprint J12
+[net_conflict]: No pad found for pin B12 in schematic.
+    Local override; Severity: warning
+    @(180.1305 mm, 71.0341 mm): Footprint J12
+[net_conflict]: No pad found for pin A9 in schematic.
+    Local override; Severity: warning
+    @(180.1305 mm, 71.0341 mm): Footprint J12
+[net_conflict]: No pad found for pin B9 in schematic.
+    Local override; Severity: warning
+    @(180.1305 mm, 71.0341 mm): Footprint J12
+[net_conflict]: No pad found for pin 7 in schematic.
+    Local override; Severity: warning
+    @(155.7108 mm, 120.9809 mm): Footprint J13
+[net_conflict]: No pad found for pin A12 in schematic.
+    Local override; Severity: warning
+    @(42.1305 mm, 71.0341 mm): Footprint J14
+[net_conflict]: No pad found for pin B12 in schematic.
+    Local override; Severity: warning
+    @(42.1305 mm, 71.0341 mm): Footprint J14
+[net_conflict]: No pad found for pin A9 in schematic.
+    Local override; Severity: warning
+    @(42.1305 mm, 71.0341 mm): Footprint J14
+[net_conflict]: No pad found for pin B9 in schematic.
+    Local override; Severity: warning
+    @(42.1305 mm, 71.0341 mm): Footprint J14
+[net_conflict]: No pad found for pin 0 in schematic.
+    Local override; Severity: warning
+    @(193.8058 mm, 76.9309 mm): Footprint J16
+[net_conflict]: No pad found for pin 0 in schematic.
+    Local override; Severity: warning
+    @(176.9362 mm, 130.9237 mm): Footprint J23
+[net_conflict]: No pad found for pin A12 in schematic.
+    Local override; Severity: warning
+    @(80.1305 mm, 71.0343 mm): Footprint J25
+[net_conflict]: No pad found for pin B12 in schematic.
+    Local override; Severity: warning
+    @(80.1305 mm, 71.0343 mm): Footprint J25
+[net_conflict]: No pad found for pin A9 in schematic.
+    Local override; Severity: warning
+    @(80.1305 mm, 71.0343 mm): Footprint J25
+[net_conflict]: No pad found for pin B9 in schematic.
+    Local override; Severity: warning
+    @(80.1305 mm, 71.0343 mm): Footprint J25
+[net_conflict]: No pad found for pin A12 in schematic.
+    Local override; Severity: warning
+    @(142.1305 mm, 71.0341 mm): Footprint J26
+[net_conflict]: No pad found for pin B12 in schematic.
+    Local override; Severity: warning
+    @(142.1305 mm, 71.0341 mm): Footprint J26
+[net_conflict]: No pad found for pin A9 in schematic.
+    Local override; Severity: warning
+    @(142.1305 mm, 71.0341 mm): Footprint J26
+[net_conflict]: No pad found for pin B9 in schematic.
+    Local override; Severity: warning
+    @(142.1305 mm, 71.0341 mm): Footprint J26
+[net_conflict]: No pad found for pin MP in schematic.
+    Local override; Severity: warning
+    @(198.3517 mm, 133.0501 mm): Footprint J32
+[net_conflict]: No pad found for pin MP in schematic.
+    Local override; Severity: warning
+    @(176.8621 mm, 175.9679 mm): Footprint J33
+
+** End of Report **

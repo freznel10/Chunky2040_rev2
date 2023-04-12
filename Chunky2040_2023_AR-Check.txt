@@ -1,0 +1,46 @@
+AR checking written on:
+'C:\KiCad\Chunky2040_2023\Chunky2040_2023_AR-Check.txt'
+'action_menu_annular_check.py'
+version = 1.7.2
+Testing PCB for Annular Rings
+TH Pads >= 0.125 Vias >= 0.125
+PHD margin on PTH = 0
+
+AR Via violation of 0.1 at XY 376.92,253.19
+AR Via violation of 0.1 at XY 193.341321,326.304889
+AR Via violation of 0.1 at XY 186.141619,265.101392
+VIAS that Pass = 901; Fails = 3
+AR PTH violation of 0.1 at XY 339.351353,197.473273
+AR PTH violation of 0.1 at XY 340.151353,197.473273
+AR PTH violation of 0.1 at XY 340.151353,198.173273
+AR PTH violation of 0.1 at XY 340.151353,198.873273
+AR PTH violation of 0.1 at XY 344.551353,197.473273
+AR PTH violation of 0.1 at XY 344.551353,198.173273
+AR PTH violation of 0.1 at XY 344.551353,198.873273
+AR PTH violation of 0.1 at XY 345.301353,197.473273
+AR PTH violation of 0.1 at XY 212.237504,297.770654
+AR PTH violation of 0.1 at XY 211.437504,297.770654
+AR PTH violation of 0.1 at XY 211.437504,297.070654
+AR PTH violation of 0.1 at XY 211.437504,296.370654
+AR PTH violation of 0.1 at XY 207.037504,297.770654
+AR PTH violation of 0.1 at XY 207.037504,297.070654
+AR PTH violation of 0.1 at XY 207.037504,296.370654
+AR PTH violation of 0.1 at XY 206.287504,297.770654
+AR PTH violation of 0.1 at XY 245.376353,203.218273
+AR PTH violation of 0.1 at XY 244.576353,203.218273
+AR PTH violation of 0.1 at XY 244.576353,202.518273
+AR PTH violation of 0.1 at XY 244.576353,201.818273
+AR PTH violation of 0.1 at XY 240.176353,203.218273
+AR PTH violation of 0.1 at XY 240.176353,202.518273
+AR PTH violation of 0.1 at XY 240.176353,201.818273
+AR PTH violation of 0.1 at XY 239.426353,203.218273
+AR PTH violation of 0.1 at XY 217.996353,192.718273
+AR PTH violation of 0.1 at XY 217.196353,192.718273
+AR PTH violation of 0.1 at XY 217.196353,192.018273
+AR PTH violation of 0.1 at XY 217.196353,191.318273
+AR PTH violation of 0.1 at XY 212.796353,192.718273
+AR PTH violation of 0.1 at XY 212.796353,192.018273
+AR PTH violation of 0.1 at XY 212.796353,191.318273
+AR PTH violation of 0.1 at XY 212.046353,192.718273
+TH PADS that Pass = 288; Fails = 32
+NPTH PADS that Pass = 0; Fails = 0
